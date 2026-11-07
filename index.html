@@ -361,12 +361,15 @@ noscript>div{padding:40px;font-family:sans-serif;max-width:640px;margin:0 auto}
   
   <div class="text-left reveal w-full mb-8">
     <h3 class="font-display text-[17px] font-semibold text-forest mb-2">Usaha keluarga sejak 2009</h3>
-    <p class="text-[12.5px] lg:text-[13px] text-stone-600 leading-relaxed text-justify mb-4">Beauty Florist Tangerang dirintis oleh keluarga kami pada 2009. Jejak perjalanan toko juga terlihat dalam dokumentasi arsip foto toko, yang memperlihatkan papan nama Beauty Florist serta karangan bunga di depan toko sejak masa perintisan.</p>
+    <p class="text-[12.5px] lg:text-[13px] text-stone-600 leading-relaxed text-justify mb-4">Beauty Florist Tangerang dirintis oleh keluarga kami pada 2009. Jejak perjalanan toko juga terlihat dalam dokumentasi foto yang memperlihatkan papan nama Beauty Florist serta karangan bunga di depan toko pada masa itu.</p>
     <p class="text-[12.5px] lg:text-[13px] text-stone-600 leading-relaxed text-justify mb-6">Dari usaha yang tumbuh melalui rekomendasi pelanggan, kami terus mengembangkan layanan bunga papan dan standing flowers di area Tangerang dan sekitarnya.</p>
     
-    <!-- BUKTI FOTO -->
-    <div class="relative aspect-video rounded-2xl overflow-hidden bg-stone-200 border border-stone-200 shadow-lg mb-6">
-        <img src="https://yaffblog.wordpress.com/wp-content/uploads/2026/11/img_7167.jpeg" alt="Dokumentasi Bukti Berdiri Beauty Florist Tangerang" class="w-full h-full object-contain bg-stone-900">
+    <!-- FOTO BUKTI -->
+    <div class="relative rounded-2xl overflow-hidden bg-stone-200 border border-stone-200 shadow-lg mb-4">
+        <img src="https://yaffblog.wordpress.com/wp-content/uploads/2026/11/img_7167.jpeg" alt="Toko Beauty Florist 2013" class="w-full h-auto object-cover">
+        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-8">
+            <p class="text-white text-[11px] font-semibold text-center">Dokumentasi Toko Beauty Florist (2013)</p>
+        </div>
     </div>
 
     <div class="pt-4 border-t border-stone-200 mb-8">
@@ -427,7 +430,7 @@ noscript>div{padding:40px;font-family:sans-serif;max-width:640px;margin:0 auto}
 </div>
 </section>
 
-<!-- TESTIMONIALS (TEXT DIGABUNG & 30 RB TERJUAL) -->
+<!-- TESTIMONIALS -->
 <section class="py-16 lg:py-24">
 <div class="max-w-8xl mx-auto px-5 lg:px-10">
 <div class="grid lg:grid-cols-12 gap-10 lg:gap-14 items-start">
@@ -445,11 +448,11 @@ noscript>div{padding:40px;font-family:sans-serif;max-width:640px;margin:0 auto}
 <svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5"><path d="M12 2l3 6.5 7 .9-5 4.9 1.2 6.9L12 17.8 5.8 21.2 7 14.3 2 9.4l7-.9L12 2z"/></svg>
 </div>
 <div class="text-[10.5px] text-stone-500 mt-1.5 leading-snug pr-2">
-  Berdasarkan ulasan dan kepuasan pelanggan setia kami, 
+  Berdasarkan ulasan di Google Maps kami, 
   <span class="inline-flex items-center justify-center w-3.5 h-3.5 bg-emerald-500 rounded-full text-white ml-0.5 align-middle">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="w-2 h-2"><path d="M20 6L9 17l-5-5"/></svg>
   </span> 
-  <span class="font-bold text-forest">kepuasan Anda adalah prioritas kami</span>
+  <span class="font-bold text-forest">30 rb produk terjual</span>
 </div>
 </div>
 </div>
@@ -1094,8 +1097,7 @@ function submitCheckout(e){
   if(note)lines.push('Catatan/Teks: '+note);
   lines.push('');lines.push('*TOTAL: '+rp(cartSubtotal())+'*');
   lines.push('');lines.push('_Pengiriman Sekitar area Tangerang Kota Gratis Ongkir_');
-  window.open('https://wa.me/'+CFG.wa+'?text='+encodeURIComponent(lines.join('
-')),'_blank');
+  window.open('https://wa.me/'+CFG.wa+'?text='+encodeURIComponent(lines.join('\n')),'_blank');
   closeCheckout();
   cart={};saveCart();updateCartUI();
   showToast('Pesanan diteruskan ke WhatsApp');
@@ -1111,7 +1113,7 @@ function openQuickView(id){
   var galleryHTML='';
   if(p.images.length>1){
     galleryHTML='<div class="flex gap-1.5 mt-3 overflow-x-auto pb-1">'+p.images.map(function(img,i){
-      return '<img src="'+img+'" class="h-14 w-14 object-cover rounded-md cursor-pointer border-2 '+(i===0?'border-forest':'border-stone-200')+'" onclick="swapQvImage(this,''+img+'',this.parentElement)" alt="foto '+(i+1)+'">';
+      return '<img src="'+img+'" class="h-14 w-14 object-cover rounded-md cursor-pointer border-2 '+(i===0?'border-forest':'border-stone-200')+'" onclick="swapQvImage(this,\''+img+'\',this.parentElement)" alt="foto '+(i+1)+'">';
     }).join('')+'</div>';
   }
   content.innerHTML=
