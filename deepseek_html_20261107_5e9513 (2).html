@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Beauty Florist — Toko Bunga Online Tangerang | Papan Bunga & Standing Flowers</title>
+<meta name="description" content="Beauty Florist Tangerang (Est. 2009). Premium & Aesthetic Floral Design. Papan bunga, standing flowers, dan buket. Proses pengerjaan 2 jam. Pengiriman sekitar area Tangerang Kota Gratis Ongkir, melayani Jabodetabek & Seluruh Indonesia.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700&family=Italianno&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+if(typeof tailwind!=='undefined'){tailwind.config={theme:{extend:{
+  fontFamily:{display:['Fraunces','Georgia','serif'],script:['Italianno','cursive'],sans:['"Plus Jakarta Sans"','system-ui','sans-serif']},
+  colors:{ivory:'#FBF9F6',cream:'#F5EFE7',forest:{DEFAULT:'#1E3A2F',soft:'#2C4F40',deep:'#132620'},rose:{DEFAULT:'#B08D86',soft:'#D4BDB8',deep:'#8F6B63'},sand:'#EFE7DF',bone:'#E8E0D5'},
+  letterSpacing:{tightest:'-0.04em'},maxWidth:{'8xl':'92rem'}
+}}}}
+</script>
+
+<link rel="icon" href="https://yaffblog.wordpress.com/wp-content/uploads/2026/11/7ce315be-9f39-4613-842b-602b0953ba04.jpeg">
+
+<style>
+:root{--ease:cubic-bezier(.22,.61,.36,1)}
+html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body{font-feature-settings:"ss01","cv11"; -webkit-tap-highlight-color:transparent}
+section[id]{scroll-margin-top:80px}
+.reveal{opacity:1;transform:none}
+html.js-ready .reveal{opacity:0;transform:translateY(18px);transition:opacity .65s var(--ease),transform .65s var(--ease)}
+html.js-ready .reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html.js-ready .reveal{opacity:1!important;transform:none!important;transition:none!important}}
+
+#nav{background:transparent; border-bottom: 1px solid transparent;}
+.nav-scrolled{background:rgba(251,249,246,.94)!important;backdrop-filter:blur(16px) saturate(1.2);-webkit-backdrop-filter:blur(16px) saturate(1.2);border-bottom:1px solid #E8E0D5!important}
+.nav-scrolled .nav-text{color:#1E3A2F!important}
+.nav-scrolled .nav-icon{color:#57534E!important}
+.nav-scrolled .nav-hamburger{color:#1E3A2F!important}
+
+.link-underline{position:relative}
+.link-underline::after{content:'';position:absolute;left:0;bottom:-2px;width:0;height:1px;background:currentColor;transition:width .3s var(--ease)}
+.link-underline:hover::after{width:100%}
+.product-media img{transition:transform .9s var(--ease)}
+.group:hover .product-media img{transform:scale(1.05)}
+
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:#F4EFE9}
+::-webkit-scrollbar-thumb{background:#D6CEC4;border-radius:99px}
+body.no-scroll{overflow:hidden}
+noscript>div{padding:40px;font-family:sans-serif;max-width:640px;margin:0 auto}
+.filter-chip{padding:7px 14px;border-radius:99px;border:1px solid #E8E0D5;font-size:12px;font-weight:500;color:#57534E;background:transparent;transition:all .2s var(--ease); white-space:nowrap;}
+.filter-chip:hover{border-color:#1E3A2F;color:#1E3A2F}
+.filter-chip.active{background:#1E3A2F;border-color:#1E3A2F;color:#FBF9F6}
+.countdown-box{background:linear-gradient(135deg,#1E3A2F 0%,#2C4F40 100%)}
+.gift-chip{padding:8px 16px;border-radius:99px;border:1.5px solid #E8E0D5;font-size:12.5px;font-weight:500;color:#57534E;background:#fff;transition:all .2s var(--ease);cursor:pointer;white-space:nowrap}
+.gift-chip.selected{background:#1E3A2F;border-color:#1E3A2F;color:#FBF9F6}
+
+#preloader{position:fixed;inset:0;z-index:9999;background:#FBF9F6;display:flex;align-items:center;justify-content:center;transition:opacity .9s var(--ease),visibility .9s}
+#preloader.out{opacity:0;visibility:hidden;pointer-events:none}
+.preloader-flower{width:70px;height:70px;animation:preloaderSpin 8s linear infinite}
+@keyframes preloaderSpin{to{transform:rotate(360deg)}}
+
+.hero-bg-img {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0;animation:slowZoom 20s ease-out forwards}
+@keyframes slowZoom{from{transform:scale(1)}to{transform:scale(1.08)}}
+.hero-overlay {position:absolute;inset:0;background:linear-gradient(to bottom,rgba(20,30,26,.78) 0%,rgba(20,30,26,.42) 50%,rgba(20,30,26,.88) 100%);z-index:1}
+
+.petals-container{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1}
+.petal{position:absolute;top:-5%;will-change:transform,opacity;animation:petalFall linear infinite}
+@keyframes petalFall{0%{transform:translate3d(0,-15vh,0) rotate(0deg);opacity:0}8%{opacity:var(--po,.4)}90%{opacity:var(--po,.4)}100%{transform:translate3d(var(--px,40px),115vh,0) rotate(540deg);opacity:0}}
+
+@media(max-width:1023px){ body{padding-bottom:calc(68px + env(safe-area-inset-bottom))} }
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.catalog-img-row{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.catalog-img-row::-webkit-scrollbar{height:4px}
+.catalog-img-row::-webkit-scrollbar-thumb{background:#D6CEC4;border-radius:99px}
+.catalog-img-row img{flex-shrink:0;height:200px;width:auto;max-width:85vw;object-fit:cover;border-radius:10px;scroll-snap-align:start;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+@media(min-width:640px){.catalog-img-row img{height:240px}}
+</style>
+</head>
+<body class="bg-ivory text-ink font-sans antialiased">
+
+<!-- PRELOADER -->
+<div id="preloader" aria-hidden="true">
+  <svg class="preloader-flower" viewBox="0 0 100 100" fill="none">
+    <g transform="translate(50 50)">
+      <ellipse cx="0" cy="-24" rx="9" ry="24" fill="#B08D86" opacity="0.9"/>
+      <ellipse cx="0" cy="-24" rx="9" ry="24" fill="#B08D86" opacity="0.9" transform="rotate(60)"/>
+      <ellipse cx="0" cy="-24" rx="9" ry="24" fill="#B08D86" opacity="0.9" transform="rotate(120)"/>
+      <ellipse cx="0" cy="-24" rx="9" ry="24" fill="#B08D86" opacity="0.9" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-24" rx="9" ry="24" fill="#B08D86" opacity="0.9" transform="rotate(240)"/>
+      <ellipse cx="0" cy="-24" rx="9" ry="24" fill="#B08D86" opacity="0.9" transform="rotate(300)"/>
+      <circle r="8" fill="#1E3A2F"/><circle r="3" fill="#B9925A"/>
+    </g>
+  </svg>
+</div>
+<script>
+(function(){function hide(){var p=document.getElementById('preloader');if(p)p.classList.add('out');}window.addEventListener('load',function(){setTimeout(hide,400);});setTimeout(hide,3000);})();
+</script>
+
+<!-- SIDEBAR OVERLAY -->
+<div id="sidebarOverlay" class="fixed inset-0 z-[65] bg-black/40 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300" onclick="closeSidebar()"></div>
+
+<!-- LEFT SIDEBAR -->
+<aside id="leftSidebar" class="fixed top-0 left-0 h-full w-[280px] sm:w-[320px] bg-forest text-ivory z-[70] -translate-x-full transition-transform duration-500 ease-out flex flex-col shadow-2xl">
+  <div class="flex items-center justify-between px-6 h-20 border-b border-white/10">
+    <a href="#" class="flex items-center gap-3">
+      <img src="https://yaffblog.wordpress.com/wp-content/uploads/2026/11/7ce315be-9f39-4613-842b-602b0953ba04.jpeg" alt="Logo" class="h-10 w-10 rounded-full border border-white/20">
+      <div class="flex flex-col">
+        <span class="font-display font-semibold text-lg tracking-tight leading-none">Beauty Florist</span>
+        <span class="text-[9px] tracking-[0.2em] text-ivory/60 mt-1">TANGERANG</span>
+      </div>
+    </a>
+    <button onclick="closeSidebar()" class="h-9 w-9 rounded-full grid place-items-center hover:bg-white/10 transition-colors" aria-label="Tutup">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-5 h-5"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <nav class="flex-1 py-8 px-6 flex flex-col gap-2 overflow-y-auto">
+    <a href="#koleksi" class="sidebar-link py-3 border-b border-white/10 text-2xl font-display font-semibold hover:text-rose-soft transition-colors" onclick="closeSidebar()">Belanja</a>
+    <a href="#momen" class="sidebar-link py-3 border-b border-white/10 text-2xl font-display font-semibold hover:text-rose-soft transition-colors" onclick="closeSidebar()">Momen</a>
+    <a href="#bukti" class="sidebar-link py-3 border-b border-white/10 text-2xl font-display font-semibold hover:text-rose-soft transition-colors" onclick="closeSidebar()">Bukti Berdiri</a>
+    <a href="#kontak" class="sidebar-link py-3 border-b border-white/10 text-2xl font-display font-semibold hover:text-rose-soft transition-colors" onclick="closeSidebar()">Kontak</a>
+  </nav>
+  <div class="p-6 border-t border-white/10 bg-white/5">
+    <p class="text-[11px] text-ivory/60 leading-relaxed mb-4">Jl. Kalipasir Indah, RT.05/RW.007, Sukasari, Kec. Tangerang, Kota Tangerang, Banten 15118</p>
+    <a href="https://wa.me/6281298156071" target="_blank" class="flex items-center justify-center gap-2 w-full h-11 rounded-full bg-[#25D366] text-white text-[13px] font-semibold hover:bg-[#1EBE5D] transition-colors mb-3">
+      <svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M20.5 3.5A11.4 11.4 0 0 0 12.1 0C5.5 0 .2 5.3.2 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.4-1.7c1.7.9 3.7 1.4 5.7 1.4 6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.3z"/></svg>
+      0812-9815-6071
+    </a>
+    <p class="text-[10px] text-center text-ivory/40">© 2009-<span id="yearSidebar"></span> Beauty Florist</p>
+  </div>
+</aside>
+
+<!-- HEADER -->
+<header id="nav" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="flex items-center justify-between h-16 lg:h-[76px]">
+  <div class="flex items-center gap-2 lg:gap-4">
+    <button id="sidebarBtn" class="h-10 w-10 rounded-full grid place-items-center text-ivory nav-hamburger hover:bg-white/20 transition-all" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="w-6 h-6"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <a href="#" class="flex items-center gap-2.5 group flex-shrink-0">
+      <img src="https://yaffblog.wordpress.com/wp-content/uploads/2026/11/7ce315be-9f39-4613-842b-602b0953ba04.jpeg" alt="Beauty Florist Logo" class="h-10 w-10 lg:h-12 lg:w-12 object-cover rounded-full border-2 border-white/50 shadow-sm transition-transform duration-300 group-hover:scale-105">
+      <div class="flex flex-col">
+        <span class="font-display font-semibold text-[16px] lg:text-[18px] tracking-tightest text-ivory nav-text transition-colors duration-300 leading-none">Beauty Florist</span>
+        <span class="text-[8px] lg:text-[9px] tracking-[0.2em] text-ivory/70 nav-text transition-colors duration-300 mt-1">TANGERANG • EST. 2009</span>
+      </div>
+    </a>
+  </div>
+  <nav class="hidden lg:flex items-center gap-0.5 text-[13px] font-medium text-ivory/90 nav-text transition-colors duration-300">
+    <a href="#koleksi" class="link-underline px-3 py-2 hover:text-white transition-colors">Belanja</a>
+    <a href="#momen" class="link-underline px-3 py-2 hover:text-white transition-colors">Momen</a>
+    <a href="#bukti" class="link-underline px-3 py-2 hover:text-white transition-colors">Bukti Berdiri</a>
+    <a href="#kontak" class="link-underline px-3 py-2 hover:text-white transition-colors">Kontak</a>
+  </nav>
+  <div class="flex items-center gap-0.5">
+    <button onclick="openCart()" class="hidden lg:flex h-10 pl-2 pr-3 rounded-full items-center gap-1.5 text-[13px] font-medium text-ivory nav-icon hover:bg-white/20 transition-all" aria-label="Keranjang"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="w-5 h-5"><path d="M6 8h12l-1.5 11h-9L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span id="cartCount" class="bg-rose text-white text-[10.5px] rounded-full h-5 min-w-[20px] grid place-items-center font-semibold px-1">0</span></button>
+  </div>
+</div>
+</div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1591886960571-74d43a9d4166?q=80&w=2000&auto=format&fit=crop" alt="Beauty Florist" class="hero-bg-img">
+  <div class="hero-overlay"></div>
+  <div class="petals-container" id="heroPetals"></div>
+  <div class="relative z-10 w-full max-w-4xl mx-auto px-6 py-20 text-center flex flex-col items-center">
+    <div class="mb-6">
+      <img src="https://yaffblog.wordpress.com/wp-content/uploads/2026/11/7ce315be-9f39-4613-842b-602b0953ba04.jpeg" alt="Beauty Florist" class="w-20 h-20 lg:w-24 lg:h-24 object-cover rounded-full border-4 border-white/30 shadow-xl">
+    </div>
+    <p class="text-[11px] lg:text-[13px] font-medium tracking-[0.25em] uppercase text-white/80 mb-6 max-w-lg leading-relaxed">
+      Premium & Aesthetic Floral Design<br>Proses Pengerjaan 2 Jam
+    </p>
+    <h1 class="font-display text-[clamp(2.8rem,7vw,5.5rem)] leading-[1.05] tracking-tightest font-medium text-white mb-6">
+      BEAUTY<br>
+      <span class="font-script text-[clamp(3.5rem,9vw,7rem)] text-rose-soft leading-none lowercase pr-2">Florist</span><br>
+      TANGERANG
+    </h1>
+    <p class="text-[14px] lg:text-[16px] text-white/90 leading-relaxed max-w-md mx-auto mb-10 font-light">
+      Menyediakan rangkaian bunga terbaik, dari papan bunga megah hingga standing flowers. Harga terjangkau, garansi kepuasan. <span class="text-rose-soft font-medium">Pengiriman Sekitar area Tangerang Kota Gratis Ongkir.</span>
+    </p>
+    <div class="w-full max-w-sm flex flex-col gap-3">
+      <a href="#koleksi" class="w-full bg-[#B08D86] text-white h-14 rounded-md text-[13px] font-semibold tracking-[0.1em] flex items-center justify-center hover:bg-[#8F6B63] transition-colors shadow-lg">
+        LIHAT PILIHAN BUNGA
+      </a>
+      <a href="https://wa.me/6281298156071" target="_blank" class="w-full bg-white text-forest h-14 rounded-md text-[13px] font-semibold tracking-[0.1em] flex items-center justify-center hover:bg-stone-100 transition-colors shadow-lg">
+        PESAN VIA WHATSAPP
+      </a>
+    </div>
+  </div>
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-2 text-white/50 animate-bounce">
+    <span class="text-[10px] uppercase tracking-widest">Scroll</span>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+  </div>
+</section>
+
+<!-- SECTION TEXT -->
+<section class="py-12 lg:py-16 bg-ivory text-center border-b border-stone-200">
+  <h2 class="font-display text-3xl md:text-5xl text-forest mb-3 reveal">Pengalaman selalu membuktikan</h2>
+  <p class="text-stone-500 text-sm md:text-base reveal" style="transition-delay: .1s">Bisnis seni yang dibangun sejak 2009 silam</p>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="border-b border-stone-200 bg-ivory relative z-10">
+  <div class="max-w-8xl mx-auto px-5 lg:px-10 py-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4" id="trustStrip"></div>
+  </div>
+</div>
+
+<!-- FLASH PROMO -->
+<section class="py-8 lg:py-12 bg-white">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="countdown-box rounded-xl overflow-hidden relative reveal shadow-xl shadow-forest/10">
+<div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image:radial-gradient(circle at 20% 50%,#FBF9F6 0%,transparent 40%),radial-gradient(circle at 80% 50%,#D4BDB8 0%,transparent 40%)"></div>
+<div class="relative p-6 lg:p-8 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-5">
+<div class="flex items-start gap-4 flex-1">
+<div class="w-12 h-12 rounded-full bg-white/10 backdrop-blur grid place-items-center flex-shrink-0 mt-1">
+<svg viewBox="0 0 24 24" fill="none" stroke="#FBF9F6" stroke-width="1.8" class="w-6 h-6"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-2 mb-1 flex-wrap"><span class="text-[10px] font-bold tracking-[0.2em] uppercase text-rose-soft">Layanan Cepat</span><span class="w-1 h-1 rounded-full bg-rose-soft"></span><span class="text-[10px] text-ivory/60 uppercase tracking-wider">Ready 2 Jam</span></div>
+<h3 class="font-display text-xl lg:text-2xl font-semibold text-ivory leading-tight">Papan Bunga & Standing Flowers — <span class="text-rose-soft">Desain Custom</span></h3>
+<p class="text-[12px] text-ivory/70 mt-2 leading-relaxed">Tersedia karangan Bunga Papan & Standing Flowers, Bouquet Flowers, Bouquet Artificial, Bouquet Costum. <strong class="text-rose-soft">Gratis Ongkir Sekitar area Tangerang Kota.</strong></p>
+</div>
+</div>
+<a href="#koleksi" class="inline-flex items-center gap-2 bg-ivory text-forest px-6 h-11 rounded-full text-[12.5px] font-semibold hover:bg-rose-soft transition-colors flex-shrink-0 mt-4 lg:mt-0">Lihat Koleksi<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="w-3.5 h-3.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="py-12 lg:py-16">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 mb-8 reveal">
+<div class="max-w-lg">
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Kategori</div>
+<h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest">Pilihan rangkaian untuk setiap momen.</h2>
+</div>
+<p class="text-[13px] text-stone-500 max-w-sm leading-relaxed hidden lg:block">Pilih kategori sesuai kebutuhan dan momen yang ingin kamu sampaikan.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 reveal" id="categoryGrid"></div>
+</div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="koleksi" class="py-12 lg:py-16 bg-white">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 mb-8 reveal">
+<div>
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Koleksi pilihan</div>
+<h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest">Produk Paling Dicari.</h2>
+</div>
+<div id="filterTabs" class="flex gap-1.5 flex-wrap"></div>
+</div>
+<div id="productGrid" class="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 lg:gap-x-5"></div>
+</div>
+</section>
+
+<!-- WHY -->
+<section class="py-14 lg:py-20">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+<div class="lg:col-span-5 reveal">
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Kenapa Kami</div>
+<h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest">Bukan toko bunga biasa.</h2>
+<p class="mt-5 text-[14px] leading-relaxed text-stone-600 max-w-md">Kami percaya bunga yang baik bukan cuma cantik — tapi juga segar, tepat waktu, dan sesuai ekspektasi. Pengerjaan cepat 2 jam, kualitas premium. Gratis Ongkir area Tangerang Kota & sekitarnya.</p>
+</div>
+<div class="lg:col-span-7 reveal" style="transition-delay:.08s">
+<div class="rounded-2xl border border-stone-200 bg-white overflow-hidden shadow-sm">
+<div class="grid grid-cols-[2fr,1fr,1fr] bg-sand text-[11px] font-semibold uppercase tracking-wider text-forest">
+<div class="px-5 py-3">Fitur</div>
+<div class="px-5 py-3 text-center border-l border-stone-200">Beauty Florist</div>
+<div class="px-5 py-3 text-center border-l border-stone-200 text-stone-400">Toko lain</div>
+</div>
+<div id="compareTable"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SEO -->
+<section class="py-14 lg:py-20 bg-white border-t border-stone-200">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="grid lg:grid-cols-12 gap-10 lg:gap-14">
+<div class="lg:col-span-4 reveal">
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Tentang Beauty Florist</div>
+<h2 class="font-display text-[clamp(1.6rem,2.8vw,2.25rem)] leading-[1.1] tracking-tightest font-semibold text-forest">Toko bunga online untuk setiap momen.</h2>
+</div>
+<div class="lg:col-span-8 reveal" style="transition-delay:.08s">
+<div class="space-y-4 text-[13px] leading-relaxed text-stone-600 max-w-3xl">
+<p>Memberikan bunga adalah salah satu cara terbaik untuk menyampaikan perasaan. Mau mengucapkan selamat, terima kasih, atau sekadar menunjukkan cinta, bunga selalu bisa jadi pilihan yang tepat. Di sinilah Beauty Florist hadir sebagai toko bunga online yang siap membantu kamu memberikan kejutan spesial kepada orang-orang tersayang.</p>
+<p>Sejak berdiri di tahun 2009, Beauty Florist telah menjadi solusi andalan bagi mereka yang ingin menyampaikan perasaan dengan rangkaian bunga. Kami selalu berusaha memastikan setiap bunga yang dikirim membawa kebahagiaan bagi penerimanya. Salah satu komitmen kami adalah memberikan garansi kepuasan kepada semua pelanggan.</p>
+<p>Kami juga memiliki visi untuk menjadi one-stop flower solution di <strong>sekitar Jabodetabek dan akan menyediakan ke seluruh Indonesia</strong>. Apa pun jenis rangkaian bunga yang kamu butuhkan — dari papan bunga megah, standing flowers, buket fresh, hingga buket custom — semuanya bisa ditemukan di Beauty Florist. <strong class="text-forest">Gratis Ongkir sekitar area Tangerang Kota.</strong></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- MOMEN -->
+<section id="momen" class="py-16 lg:py-24 bg-sand/30">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 mb-10 reveal">
+<div class="max-w-lg">
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Momen</div>
+<h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest">Temukan bunga sesuai momen.</h2>
+</div>
+<p class="text-[13px] text-stone-500 max-w-sm leading-relaxed hidden lg:block">Pilih momen spesial Anda, kami siapkan rangkaian yang tepat.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4 reveal" id="occasionGrid"></div>
+</div>
+</section>
+
+<!-- GIFT FINDER -->
+<section class="py-14 lg:py-20 bg-white">
+<div class="max-w-5xl mx-auto px-5 lg:px-10">
+<div class="text-center mb-10 reveal">
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Gift Finder</div>
+<h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest">Bingung pilih bunga? Kami bantu.</h2>
+<p class="mt-4 text-[13.5px] text-stone-500 max-w-md mx-auto">Pilih kategori dan budget, kami rekomendasikan rangkaian yang paling cocok.</p>
+</div>
+<div class="reveal rounded-2xl border border-stone-200 bg-ivory p-6 lg:p-8">
+<div class="grid lg:grid-cols-2 gap-6 lg:gap-10">
+<div>
+<label class="text-[11px] font-semibold uppercase tracking-wider text-stone-500 mb-3 block">1. Untuk kategori apa?</label>
+<div class="flex flex-wrap gap-2" id="giftOccasionChips"></div>
+</div>
+<div>
+<label class="text-[11px] font-semibold uppercase tracking-wider text-stone-500 mb-3 block">2. Budget kamu?</label>
+<div class="flex flex-wrap gap-2" id="giftBudgetChips"></div>
+</div>
+</div>
+<div id="giftResult" class="mt-8 pt-6 border-t border-stone-200">
+<p class="text-[13px] text-stone-500 text-center">Pilih kategori dan budget untuk melihat rekomendasi.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- STEPS -->
+<section class="py-14 lg:py-20 bg-white">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="text-center mb-10 reveal">
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Cara pesan</div>
+<h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest">Tiga langkah, bunga sampai.</h2>
+</div>
+<div class="grid md:grid-cols-3 gap-6 lg:gap-8 reveal" id="stepsGrid"></div>
+</div>
+</section>
+
+<!-- BUKTI -->
+<section id="bukti" class="py-16 lg:py-24">
+<div class="max-w-3xl mx-auto px-5 lg:px-10 text-center flex flex-col items-center">
+  <div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3 reveal">— Sejarah Kami</div>
+  <h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest mb-8 reveal">Bukti Berdiri Toko</h2>
+  <div class="text-left reveal w-full">
+    <h3 class="font-display text-[17px] font-semibold text-forest mb-2">Usaha keluarga sejak 2009</h3>
+    <p class="text-[12.5px] lg:text-[13px] text-stone-600 leading-relaxed text-justify mb-4">Beauty Florist Tangerang dirintis oleh keluarga kami pada 2009. Jejak perjalanan toko juga terlihat dalam dokumentasi Google Street View bertanggal Agustus 2013, yang memperlihatkan papan nama Beauty Florist serta karangan bunga di depan toko.</p>
+    <p class="text-[12.5px] lg:text-[13px] text-stone-600 leading-relaxed text-justify mb-6">Dari usaha yang tumbuh melalui rekomendasi pelanggan, kami terus mengembangkan layanan bunga papan dan standing flowers di area Tangerang dan sekitarnya.</p>
+    <div class="pt-4 border-t border-stone-200 mb-8">
+      <p class="text-[11px] text-stone-500 leading-relaxed text-justify"><strong class="font-semibold text-stone-600">DISCLAIMER:</strong> Beauty Florist Tangerang merupakan usaha keluarga yang dirintis sejak 2009 dan tumbuh melalui rekomendasi pelanggan dari mulut ke mulut. Kini, generasi penerus kami mulai mengembangkan pemasaran digital agar pelanggan lebih mudah melihat koleksi, menemukan toko, dan melakukan pemesanan. Gratis Ongkir sekitar area Tangerang Kota.</p>
+    </div>
+    <div class="text-center w-full">
+      <button onclick="openCatalogModal()" class="inline-flex items-center gap-2 bg-forest text-ivory px-8 h-12 rounded-full text-[13px] font-semibold hover:bg-forest-soft transition-colors shadow-lg">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Lihat Katalog Lengkap
+      </button>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- FOUNDER -->
+<section class="py-16 lg:py-24 bg-white border-t border-stone-100">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+<div class="lg:col-span-5 reveal">
+<div class="aspect-[4/5] rounded-2xl overflow-hidden bg-stone-100 shadow-md">
+<img src="https://yaffblog.wordpress.com/wp-content/uploads/2026/11/8c0d3d08-a840-4c15-8596-82c1e3e894b6.jpeg" alt="Ryanto Azis" class="w-full h-full object-cover">
+</div>
+</div>
+<div class="lg:col-span-7 reveal" style="transition-delay:.08s">
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Tentang Kami</div>
+<h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest max-w-lg">Kenali Founder Kami.</h2>
+<p class="mt-5 max-w-xl text-[14px] leading-relaxed text-stone-600">Berdiri sejak 2009, Beauty Florist hadir untuk membantu kamu menyampaikan perasaan terdalam melalui bunga. Dari papan bunga megah, standing flowers, hingga buket tangan — semua dikerjakan dengan standar kualitas terbaik.</p>
+<p class="mt-4 max-w-xl text-[14px] leading-relaxed text-stone-600">Kami percaya bunga bukan sekadar produk. Ia adalah cara untuk mengatakan hal-hal yang sulit diucapkan. Karena itu setiap rangkaian kami kerjakan dengan sepenuh hati.</p>
+<div class="mt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-5 rounded-2xl bg-sand/70 max-w-lg border border-stone-200">
+  <div class="flex items-center gap-4">
+    <div class="w-12 h-12 rounded-full bg-forest text-ivory grid place-items-center font-display font-semibold text-lg flex-shrink-0">RA</div>
+    <div>
+      <div class="font-display text-lg font-semibold text-forest leading-tight">Ryanto Azis</div>
+      <div class="text-[11px] text-stone-500 mt-1 max-w-[200px] leading-tight">Founders & The Best Artist of Beauty Florist Tangerang</div>
+    </div>
+  </div>
+  <a href="https://maps.app.goo.gl/JP97X1KA8tEKZB9KA?g_st=ac" target="_blank" class="inline-flex items-center gap-1.5 px-4 h-9 rounded-full bg-white text-forest text-[11.5px] font-semibold border border-stone-200 hover:border-forest transition-colors whitespace-nowrap shadow-sm">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="w-3.5 h-3.5"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+    Lihat Maps
+  </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- BESTSELLERS -->
+<section class="py-14 lg:py-20 bg-white">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 mb-9 reveal">
+<div class="max-w-lg">
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Paling dicari</div>
+<h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest">Bestsellers bulan ini.</h2>
+</div>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 lg:gap-x-5 reveal" id="bestsellerGrid"></div>
+</div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="py-16 lg:py-24">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="grid lg:grid-cols-12 gap-10 lg:gap-14 items-start">
+<div class="lg:col-span-5 reveal">
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Testimoni</div>
+<h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest">What our customers say.</h2>
+<div class="mt-6 flex items-center gap-4 p-5 rounded-2xl bg-white border border-stone-200 max-w-xs">
+<div class="text-[44px] font-display font-semibold text-forest leading-none">4.7</div>
+<div>
+<div class="flex items-center gap-0.5 text-amber-500">
+<svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5"><path d="M12 2l3 6.5 7 .9-5 4.9 1.2 6.9L12 17.8 5.8 21.2 7 14.3 2 9.4l7-.9L12 2z"/></svg>
+<svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5"><path d="M12 2l3 6.5 7 .9-5 4.9 1.2 6.9L12 17.8 5.8 21.2 7 14.3 2 9.4l7-.9L12 2z"/></svg>
+<svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5"><path d="M12 2l3 6.5 7 .9-5 4.9 1.2 6.9L12 17.8 5.8 21.2 7 14.3 2 9.4l7-.9L12 2z"/></svg>
+<svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5"><path d="M12 2l3 6.5 7 .9-5 4.9 1.2 6.9L12 17.8 5.8 21.2 7 14.3 2 9.4l7-.9L12 2z"/></svg>
+<svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5"><path d="M12 2l3 6.5 7 .9-5 4.9 1.2 6.9L12 17.8 5.8 21.2 7 14.3 2 9.4l7-.9L12 2z"/></svg>
+</div>
+<div class="text-[11.5px] text-stone-500 mt-1">Berdasarkan 300rb+ ulasan</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7"><div class="grid sm:grid-cols-2 gap-4 reveal" id="testimonialGrid"></div></div>
+</div>
+</div>
+</section>
+
+<!-- INSTAGRAM -->
+<section class="py-14 lg:py-20 bg-white">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 mb-8 reveal">
+<div class="max-w-lg">
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Instagram</div>
+<h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest">@beautyfloristtangerang</h2>
+</div>
+<a href="https://www.instagram.com/beautyfloristtangerang/" target="_blank" rel="noopener noreferrer" class="link-underline inline-flex items-center gap-1.5 text-[13px] font-semibold text-forest">Ikuti kami<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="w-3.5 h-3.5"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 lg:gap-3 reveal" id="instaGrid"></div>
+</div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="py-16 lg:py-24 bg-sand/40">
+<div class="max-w-8xl mx-auto px-5 lg:px-10">
+<div class="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+<div class="lg:col-span-5 reveal">
+<div class="text-[11px] font-semibold tracking-[0.2em] uppercase text-rose mb-3">— Kunjungi studio</div>
+<h2 class="font-display text-[clamp(1.8rem,3.2vw,2.75rem)] leading-[1.08] tracking-tightest font-semibold text-forest">Explore our space.</h2>
+<p class="mt-4 text-[14px] text-stone-600 leading-relaxed max-w-sm">Silakan hubungi kami untuk konsultasi atau pemesanan. Kami siap melayani Anda.</p>
+<div class="mt-7 space-y-4" id="contactList"></div>
+</div>
+<div class="lg:col-span-7 reveal" style="transition-delay:.08s">
+<div class="relative aspect-[16/10] rounded-2xl overflow-hidden bg-stone-200 border border-stone-200 shadow-lg">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.610693881413!2d106.62961247448085!3d-6.192688993809465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fdd5d2f1e8b3%3A0x8b3e3b3f5c4d2e1a!2sJl.%20Kalipasir%20Indah%2C%20RT.05%2FRW.007%2C%20Sukasari%2C%20Kec.%20Tangerang%2C%20Kota%20Tangerang%2C%20Banten%2015118!5e0!3m2!1sen!2sid!4v1689000000000!5m2!1sen!2sid" width="100%" height="100%" style="border:0; min-height:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer class="border-t border-stone-200 bg-ivory">
+<div class="max-w-8xl mx-auto px-5 lg:px-10 py-14">
+<div class="grid md:grid-cols-12 gap-9">
+<div class="md:col-span-5">
+<a href="#" class="flex items-center gap-3 mb-4">
+  <img src="https://yaffblog.wordpress.com/wp-content/uploads/2026/11/7ce315be-9f39-4613-842b-602b0953ba04.jpeg" alt="Beauty Florist Logo" class="h-12 w-12 object-cover rounded-full border border-stone-200">
+  <div class="flex flex-col">
+    <span class="font-display font-semibold text-[19px] tracking-tightest text-forest leading-none">Beauty Florist</span>
+    <span class="text-[9px] tracking-[0.2em] text-stone-500 mt-1">TANGERANG • EST. 2009</span>
+  </div>
+</a>
+<p class="text-[13px] text-stone-500 leading-relaxed max-w-xs">Premium & Aesthetic Floral Design. Rangkaian bunga untuk setiap momen, dirangkai tangan dengan garansi kepuasan. Gratis Ongkir sekitar area Tangerang Kota.</p>
+</div>
+<div class="md:col-span-3">
+<div class="text-[10.5px] font-semibold tracking-[0.18em] uppercase text-stone-400 mb-3">Kategori Utama</div>
+<ul class="space-y-2 text-[13px] text-stone-600">
+<li><a href="#koleksi" class="hover:text-forest transition-colors" onclick="filterProducts('Duka Cita')">Duka Cita</a></li>
+<li><a href="#koleksi" class="hover:text-forest transition-colors" onclick="filterProducts('Wedding')">Wedding</a></li>
+<li><a href="#koleksi" class="hover:text-forest transition-colors" onclick="filterProducts('Selamat & Sukses')">Selamat & Sukses</a></li>
+<li><a href="#koleksi" class="hover:text-forest transition-colors" onclick="filterProducts('Congratulation')">Congratulation</a></li>
+</ul>
+</div>
+<div class="md:col-span-4">
+<div class="text-[10.5px] font-semibold tracking-[0.18em] uppercase text-stone-400 mb-3">Hubungi Kami</div>
+<p class="text-[13px] text-stone-600 leading-relaxed">Jl. Kalipasir Indah, RT.05/RW.007, Sukasari, Kec. Tangerang, Kota Tangerang, Banten 15118<br><a href="https://wa.me/6281298156071" class="hover:text-forest transition-colors font-semibold mt-2 inline-block">0812-9815-6071</a></p>
+<p class="text-[11px] text-stone-400 mt-3">🕐 Senin - Minggu : 24 Jam</p>
+</div>
+</div>
+<div class="mt-12 pt-5 border-t border-stone-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 text-[11.5px] text-stone-400">
+<div>© <span id="year"></span> Beauty Florist Tangerang. All rights reserved.</div>
+<div class="text-[10.5px]">Melayani sekitar <strong class="text-stone-500">Tangerang Kota & Seluruh Indonesia</strong></div>
+</div>
+</div>
+</footer>
+
+<!-- FLOATING WA -->
+<a href="https://wa.me/6281298156071" target="_blank" rel="noopener" class="fixed bottom-[80px] lg:bottom-6 right-5 z-40 h-12 pl-4 pr-5 rounded-full bg-[#25D366] text-white shadow-xl flex items-center gap-2 text-[12.5px] font-semibold hover:bg-[#1EBE5D] transition-all duration-200 hover:-translate-y-0.5">
+<svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M20.5 3.5A11.4 11.4 0 0 0 12.1 0C5.5 0 .2 5.3.2 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.4-1.7c1.7.9 3.7 1.4 5.7 1.4 6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.3z"/></svg>
+Chat kami
+</a>
+
+<!-- MOBILE BOTTOM NAV -->
+<div class="lg:hidden fixed bottom-0 inset-x-0 bg-ivory/95 backdrop-blur border-t border-stone-200 z-50 flex justify-around items-center pt-2 pb-[calc(8px+env(safe-area-inset-bottom))] px-2">
+  <a href="#koleksi" class="flex flex-col items-center justify-center text-stone-600 hover:text-forest transition-colors w-16 gap-1">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="w-5 h-5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+    <span class="text-[10px] font-medium">Shop</span>
+  </a>
+  <button onclick="openCart()" class="flex flex-col items-center justify-center text-stone-600 hover:text-forest transition-colors w-16 gap-1 relative">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="w-5 h-5"><path d="M6 8h12l-1.5 11h-9L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+    <span class="text-[10px] font-medium">Cart</span>
+    <span id="cartCountMobile" class="absolute top-0 right-2 bg-rose text-white text-[9px] rounded-full h-4 min-w-[16px] flex items-center justify-center font-bold px-1">0</span>
+  </button>
+</div>
+
+<!-- CART DRAWER -->
+<div id="cartDrawer" class="fixed inset-0 z-[70] pointer-events-none">
+<div id="cartBackdrop" onclick="closeCart()" class="absolute inset-0 bg-black/40 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+<aside id="cartPanel" class="absolute top-0 right-0 h-full w-full max-w-md bg-ivory shadow-2xl translate-x-full transition-transform duration-500 ease-out flex flex-col pointer-events-auto">
+<div class="flex items-center justify-between px-5 h-16 border-b border-stone-200 flex-shrink-0"><div class="font-semibold text-[14px] text-forest">Keranjang <span id="cartCountInline" class="text-stone-400 font-normal">(0)</span></div><button onclick="closeCart()" class="h-9 w-9 rounded-full grid place-items-center hover:bg-sand transition-colors" aria-label="Tutup"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="w-5 h-5"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+<div id="cartItems" class="flex-1 overflow-y-auto p-5"></div>
+<div class="border-t border-stone-200 p-5 space-y-3 flex-shrink-0">
+<div class="flex justify-between text-[15px] pt-2.5"><span class="font-semibold text-forest">Total Tagihan</span><span class="font-bold text-forest" id="cartTotal">Rp 0</span></div>
+<button onclick="openCheckout()" class="w-full h-12 rounded-full bg-forest text-ivory text-[13px] font-semibold hover:bg-forest-soft transition-colors shadow-md">Lanjut Isi Data Pengiriman</button>
+<button onclick="closeCart();document.getElementById('koleksi').scrollIntoView({behavior:'smooth'})" class="w-full h-9 rounded-full text-[12px] font-medium text-stone-500 hover:text-forest transition-colors">Lanjut belanja</button>
+</div>
+</aside>
+</div>
+
+<!-- CHECKOUT -->
+<div id="checkoutModal" class="fixed inset-0 z-[80] bg-black/50 backdrop-blur-sm hidden items-center justify-center p-4">
+  <div class="bg-ivory rounded-2xl max-w-lg w-full max-h-[90vh] overflow-y-auto shadow-2xl relative p-6 lg:p-8">
+    <button onclick="closeCheckout()" class="absolute top-4 right-4 h-9 w-9 rounded-full grid place-items-center hover:bg-sand transition-colors" aria-label="Tutup"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="w-5 h-5"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+    <h2 class="font-display text-2xl font-semibold text-forest mb-1">Data Pengiriman</h2>
+    <p class="text-[12px] text-stone-500 mb-6">Lengkapi data di bawah ini untuk diarahkan ke WhatsApp.</p>
+    <form id="checkoutForm" onsubmit="submitCheckout(event)">
+      <label class="text-[11px] font-semibold uppercase tracking-wider text-stone-500 mb-1 block">Nama Pemesan</label>
+      <input type="text" id="coName" required placeholder="Nama lengkap..." class="w-full h-11 rounded-lg border border-stone-200 px-3 text-[13px] focus:outline-none focus:border-forest mb-4">
+      <label class="text-[11px] font-semibold uppercase tracking-wider text-stone-500 mb-1 block">No. WhatsApp / HP</label>
+      <input type="tel" id="coPhone" required placeholder="08xxxxxxxxxx" class="w-full h-11 rounded-lg border border-stone-200 px-3 text-[13px] focus:outline-none focus:border-forest mb-4">
+      <label class="text-[11px] font-semibold uppercase tracking-wider text-stone-500 mb-1 block">Alamat Pengiriman Lengkap</label>
+      <textarea id="coAddress" required rows="2" placeholder="Nama jalan, RT/RW, kelurahan, kecamatan..." class="w-full rounded-lg border border-stone-200 px-3 py-2 text-[13px] focus:outline-none focus:border-forest mb-4"></textarea>
+      <div class="grid grid-cols-2 gap-3 mb-3">
+        <div>
+          <label class="text-[11px] font-semibold uppercase tracking-wider text-stone-500 mb-1 block">Tgl Pengiriman</label>
+          <input type="date" id="coDate" required class="w-full h-11 rounded-lg border border-stone-200 px-3 text-[13px] focus:outline-none focus:border-forest">
+        </div>
+        <div>
+          <label class="text-[11px] font-semibold uppercase tracking-wider text-stone-500 mb-1 block">Jam Kirim (Opsional)</label>
+          <input type="time" id="coTime" class="w-full h-11 rounded-lg border border-stone-200 px-3 text-[13px] focus:outline-none focus:border-forest">
+        </div>
+      </div>
+      <div class="flex items-start gap-2 bg-emerald-50 border border-emerald-200 rounded-lg px-3 py-2.5 mb-4">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="1.8" class="w-4 h-4 flex-shrink-0 mt-0.5"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="2"/></svg>
+        <p class="text-[11px] text-emerald-800 leading-relaxed"><strong>Gratis Ongkir sekitar area Tangerang Kota.</strong> Untuk pengiriman ke luar kota (Jabodetabek/Indonesia), ongkir akan menyesuaikan.</p>
+      </div>
+      <label class="text-[11px] font-semibold uppercase tracking-wider text-stone-500 mb-1 block">Teks Papan / Catatan (Opsional)</label>
+      <textarea id="coNote" rows="2" placeholder="Tuliskan teks papan bunga atau ucapan..." class="w-full rounded-lg border border-stone-200 px-3 py-2 text-[13px] focus:outline-none focus:border-forest mb-6"></textarea>
+      <button type="submit" class="w-full h-12 rounded-full bg-[#25D366] text-white text-[13.5px] font-bold hover:bg-[#1EBE5D] transition-colors flex items-center justify-center gap-2 shadow-lg">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M20.5 3.5A11.4 11.4 0 0 0 12.1 0C5.5 0 .2 5.3.2 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.4-1.7c1.7.9 3.7 1.4 5.7 1.4 6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.3z"/></svg>
+        Kirim Pesanan ke WhatsApp
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- QUICK VIEW -->
+<div id="qvOverlay" class="fixed inset-0 z-[76] bg-black/50 backdrop-blur-sm hidden items-center justify-center p-4" onclick="if(event.target===this)closeQuickView()">
+<div class="bg-ivory rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative" id="qvContent"></div>
+</div>
+
+<!-- KATALOG MODAL -->
+<div id="catalogModal" class="fixed inset-0 z-[85] bg-black/70 backdrop-blur-sm hidden items-center justify-center p-4" onclick="if(event.target===this)closeCatalogModal()">
+  <div class="bg-ivory rounded-2xl max-w-2xl w-full shadow-2xl relative flex flex-col max-h-[92vh] overflow-hidden">
+    <div class="flex items-center justify-between p-4 border-b border-stone-200 shrink-0">
+      <div>
+        <h3 class="font-display text-lg font-semibold text-forest">Katalog Beauty Florist</h3>
+        <p class="text-[10.5px] text-stone-500 mt-0.5">Semua koleksi produk & foto</p>
+      </div>
+      <button onclick="closeCatalogModal()" class="h-8 w-8 rounded-full grid place-items-center hover:bg-sand transition-colors" aria-label="Tutup">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-5 h-5"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="p-4 overflow-y-auto bg-ivory flex-1">
+      <p class="text-[11px] font-semibold text-rose-600 mb-3 bg-rose-50 p-2.5 rounded-lg text-center">📲 Tekan lama (long-press) pada gambar untuk <b>Simpan Gambar</b>. Geser ke kanan untuk foto lainnya.</p>
+      <div id="catalogBody"></div>
+    </div>
+    <div class="p-4 border-t border-stone-200 shrink-0 flex flex-col sm:flex-row gap-2">
+      <a href="https://yaffblog.wordpress.com/wp-content/uploads/2026/11/beige-and-white-minimalist-jewellry-catalogue-presentation_20261106_204956_0000_compressed.pdf" target="_blank" class="flex-1 h-11 rounded-full bg-forest text-ivory text-[13px] font-semibold hover:bg-forest-soft transition-colors flex items-center justify-center gap-2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Katalog PDF
+      </a>
+      <a href="https://wa.me/6281298156071?text=Halo%20Beauty%20Florist%2C%20saya%20mau%20tanya%20katalog%20lengkap" target="_blank" class="flex-1 h-11 rounded-full bg-[#25D366] text-white text-[13px] font-semibold hover:bg-[#1EBE5D] transition-colors flex items-center justify-center gap-2">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M20.5 3.5A11.4 11.4 0 0 0 12.1 0C5.5 0 .2 5.3.2 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.4-1.7c1.7.9 3.7 1.4 5.7 1.4 6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.3z"/></svg>
+        Tanya Admin
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast" class="fixed bottom-24 left-1/2 -translate-x-1/2 bg-forest text-ivory px-5 py-3 rounded-full text-[12.5px] font-medium z-[90] opacity-0 translate-y-4 pointer-events-none transition-all duration-300 whitespace-nowrap"></div>
+
+<script>
+(function(){
+'use strict';
+document.documentElement.classList.add('js-ready');
+setTimeout(function(){try{var els=document.querySelectorAll('.reveal:not(.in)');for(var i=0;i<els.length;i++)els[i].classList.add('in');}catch(e){}},1200);
+
+/* SIDEBAR */
+function openSidebar(){document.getElementById('leftSidebar').classList.remove('-translate-x-full');document.getElementById('sidebarOverlay').classList.remove('opacity-0','pointer-events-none');document.body.classList.add('no-scroll');}
+function closeSidebar(){document.getElementById('leftSidebar').classList.add('-translate-x-full');document.getElementById('sidebarOverlay').classList.add('opacity-0','pointer-events-none');if(!document.getElementById('cartDrawer')||document.getElementById('cartDrawer').classList.contains('pointer-events-none')){document.body.classList.remove('no-scroll');}}
+document.getElementById('sidebarBtn').addEventListener('click',openSidebar);
+window.openSidebar=openSidebar;window.closeSidebar=closeSidebar;
+
+/* CATALOG MODAL */
+function openCatalogModal(){document.getElementById('catalogModal').classList.remove('hidden');document.getElementById('catalogModal').classList.add('flex');document.body.classList.add('no-scroll');}
+function closeCatalogModal(){document.getElementById('catalogModal').classList.add('hidden');document.getElementById('catalogModal').classList.remove('flex');if(!document.getElementById('cartDrawer').classList.contains('pointer-events-none'))return;document.body.classList.remove('no-scroll');}
+window.openCatalogModal=openCatalogModal;window.closeCatalogModal=closeCatalogModal;
+
+/* PETALS */
+function initHeroPetals(){
+  var container=document.getElementById('heroPetals');if(!container)return;
+  if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  var colors=['#ffffff','#FBF9F6','#D4BDB8','#F5EFE7'];var count=window.innerWidth<640?12:20;
+  for(var i=0;i<count;i++){var el=document.createElement('div');el.className='petal';var size=8+Math.random()*12;var color=colors[Math.floor(Math.random()*colors.length)];
+    el.innerHTML='<svg width="'+size+'" height="'+size+'" viewBox="0 0 24 24" fill="'+color+'"><path d="M12 2 C 8 6 6 10 12 22 C 18 10 16 6 12 2 Z" opacity="0.6"/></svg>';
+    el.style.left=Math.random()*100+'%';el.style.animationDuration=(15+Math.random()*15)+'s';el.style.animationDelay=(Math.random()*20)+'s';
+    el.style.setProperty('--px',(Math.random()*160-80)+'px');el.style.setProperty('--po',(0.2+Math.random()*0.4).toFixed(2));container.appendChild(el);}
+}
+
+/* ============================================================
+   DATA PRODUK
+   ============================================================ */
+var IMG = 'https://yaffblog.wordpress.com/wp-content/uploads/2026/11/';
+
+var PRODUCTS = [
+  // ===== 1. DUKA CITA =====
+  {id:'dc-120-2',name:'Duka Cita 120×200 — Bunga 2 Titik',cat:'Duka Cita',occasion:'Duka Cita',size:'120×200 cm',points:'2 Titik',price:500000,sale:0,tag:'',rating:5.0,reviews:48,bestseller:false,desc:'Papan duka cita ukuran 120×200 cm dengan rangkaian bunga 2 titik. Ungkapkan belasungkawa dengan penuh hormat.',images:[IMG+'70fa1b3f-fabe-47f7-8e16-f4bd669f4a2c.jpeg',IMG+'e70f306b-5ad6-4f4c-a2b9-595a92efca29.jpeg',IMG+'898fb558-9387-4bff-9654-7059a793f0c6.jpeg']},
+  {id:'dc-120-full',name:'Duka Cita 120×200 — Full Bunga',cat:'Duka Cita',occasion:'Duka Cita',size:'120×200 cm',points:'Full Bunga',price:1000000,sale:0,tag:'Premium',rating:5.0,reviews:21,bestseller:false,desc:'Papan duka cita ukuran 120×200 cm dengan rangkaian full bunga. Tampilan mewah dan penuh penghormatan.',images:[IMG+'f72eb770-f7f5-4b85-ad1b-2855d4d31a40.jpeg']},
+  {id:'dc-150-2',name:'Duka Cita 150×200 — Bunga 2 Titik',cat:'Duka Cita',occasion:'Duka Cita',size:'150×200 cm',points:'2 Titik',price:600000,sale:0,tag:'Best Seller',rating:5.0,reviews:76,bestseller:true,desc:'Papan duka cita ukuran 150×200 cm dengan rangkaian bunga 2 titik. Ukuran ideal untuk lokasi utama.',images:[IMG+'084469e9-9e64-4dff-a45f-6a7384e0133c.jpeg',IMG+'998b2927-5b60-49b0-a918-d3127bcc3747.jpeg']},
+  {id:'dc-120-4',name:'Duka Cita 120×200 — Bunga 4 Titik',cat:'Duka Cita',occasion:'Duka Cita',size:'120×200 cm',points:'4 Titik',price:650000,sale:0,tag:'',rating:4.9,reviews:32,bestseller:false,desc:'Papan duka cita ukuran 120×200 cm dengan rangkaian bunga 4 titik. Lebih megah dan penuh makna.',images:[IMG+'63d716f1-02fb-431e-a4d7-087765f0ebb3.jpeg']},
+  {id:'dc-150-full',name:'Duka Cita 150×200 — Full Bunga',cat:'Duka Cita',occasion:'Duka Cita',size:'150×200 cm',points:'Full Bunga',price:1300000,sale:0,tag:'Premium',rating:5.0,reviews:18,bestseller:false,desc:'Papan duka cita ukuran 150×200 cm dengan rangkaian full bunga. Paling megah untuk menyampaikan penghormatan terakhir.',images:[IMG+'f8059d46-c036-4acf-9e51-af64bc693b5a.jpeg']},
+  {id:'dc-150-4',name:'Duka Cita 150×200 — Bunga 4 Titik',cat:'Duka Cita',occasion:'Duka Cita',size:'150×200 cm',points:'4 Titik',price:750000,sale:0,tag:'',rating:4.9,reviews:38,bestseller:false,desc:'Papan duka cita ukuran 150×200 cm dengan rangkaian bunga 4 titik. Elegan dan penuh rasa hormat.',images:[IMG+'4a8b0e7a-98e7-457c-9628-137cf918997b.jpeg',IMG+'6a66d300-3eac-4e07-80fe-0ccb3d649c9a.jpeg']},
+
+  // ===== 2. WEDDING =====
+  {id:'wd-120-2',name:'Wedding 120×200 — Bunga 2 Titik',cat:'Wedding',occasion:'Wedding',size:'120×200 cm',points:'2 Titik',price:500000,sale:0,tag:'',rating:5.0,reviews:42,bestseller:false,desc:'Papan ucapan wedding ukuran 120×200 cm dengan bunga 2 titik. Ucapan bahagia untuk hari spesial.',images:[IMG+'29f865a0-1f4b-4805-8942-17850aabfda9.jpeg',IMG+'f2b0bc40-5639-48ee-b61b-4a8b03d05d80.jpeg',IMG+'0dcbac03-91eb-4b27-af50-31bbf91dc355.jpeg']},
+  {id:'wd-120-4',name:'Wedding 120×200 — Bunga 4 Titik',cat:'Wedding',occasion:'Wedding',size:'120×200 cm',points:'4 Titik',price:650000,sale:0,tag:'',rating:4.9,reviews:28,bestseller:false,desc:'Papan ucapan wedding ukuran 120×200 cm dengan bunga 4 titik. Lebih semarak untuk pernikahan.',images:[IMG+'72a3022c-cc5d-480b-b50f-272a979e2c16.jpeg']},
+  {id:'wd-120-full',name:'Wedding 120×200 — Full Bunga',cat:'Wedding',occasion:'Wedding',size:'120×200 cm',points:'Full Bunga',price:1000000,sale:0,tag:'Premium',rating:5.0,reviews:19,bestseller:false,desc:'Papan ucapan wedding ukuran 120×200 cm dengan rangkaian full bunga. Mewah untuk momen sakral.',images:[IMG+'5a6306fd-5489-4b42-81a7-b8df73a7c6cf.jpeg']},
+  {id:'wd-150-2',name:'Wedding 150×200 — Bunga 2 Titik',cat:'Wedding',occasion:'Wedding',size:'150×200 cm',points:'2 Titik',price:600000,sale:0,tag:'Best Seller',rating:5.0,reviews:54,bestseller:true,desc:'Papan ucapan wedding ukuran 150×200 cm dengan bunga 2 titik. Ukuran besar, kesan mendalam.',images:[IMG+'f2cca3f1-8d3f-4fca-be72-c9e7d5dad3b5.jpeg']},
+  {id:'wd-150-4',name:'Wedding 150×200 — Bunga 4 Titik',cat:'Wedding',occasion:'Wedding',size:'150×200 cm',points:'4 Titik',price:750000,sale:0,tag:'',rating:4.9,reviews:25,bestseller:false,desc:'Papan ucapan wedding ukuran 150×200 cm dengan bunga 4 titik. Kombinasi ukuran dan dekorasi yang pas.',images:[IMG+'6d22aefe-0ea1-4a56-9b44-beadb8e4098d.jpeg']},
+  {id:'wd-150-full',name:'Wedding 150×200 — Full Bunga',cat:'Wedding',occasion:'Wedding',size:'150×200 cm',points:'Full Bunga',price:1300000,sale:0,tag:'Premium',rating:5.0,reviews:15,bestseller:false,desc:'Papan ucapan wedding ukuran 150×200 cm dengan full bunga. Rangkaian paling megah untuk resepsi.',images:[IMG+'b0da5a10-f4c2-4574-a346-5783765393f0.jpeg']},
+
+  // ===== 3. SELAMAT & SUKSES =====
+  {id:'ss-120-2',name:'Selamat & Sukses 120×200 — Bunga 2 Titik',cat:'Selamat & Sukses',occasion:'Selamat & Sukses',size:'120×200 cm',points:'2 Titik',price:500000,sale:0,tag:'',rating:5.0,reviews:36,bestseller:false,desc:'Papan ucapan selamat & sukses ukuran 120×200 cm dengan bunga 2 titik. Cocok untuk pembukaan usaha.',images:[IMG+'a21e74d2-4df7-47ce-964f-c0aeb04d5d73.jpeg']},
+  {id:'ss-120-4',name:'Selamat & Sukses 120×200 — Bunga 4 Titik',cat:'Selamat & Sukses',occasion:'Selamat & Sukses',size:'120×200 cm',points:'4 Titik',price:650000,sale:0,tag:'',rating:4.9,reviews:24,bestseller:false,desc:'Papan ucapan selamat & sukses ukuran 120×200 cm dengan bunga 4 titik. Lebih berkesan untuk relasi bisnis.',images:[IMG+'71c2bfd0-4f9f-4b96-a2f1-226f2f8733b8.jpeg']},
+  {id:'ss-120-full',name:'Selamat & Sukses 120×200 — Full Bunga',cat:'Selamat & Sukses',occasion:'Selamat & Sukses',size:'120×200 cm',points:'Full Bunga',price:1000000,sale:0,tag:'Premium',rating:5.0,reviews:17,bestseller:false,desc:'Papan ucapan selamat & sukses ukuran 120×200 cm dengan full bunga. Eksklusif untuk momen istimewa.',images:[IMG+'4fb05cc5-52ea-4331-a45a-96ef6f59d3eb.jpeg']},
+  {id:'ss-150-2',name:'Selamat & Sukses 150×200 — Bunga 2 Titik',cat:'Selamat & Sukses',occasion:'Selamat & Sukses',size:'150×200 cm',points:'2 Titik',price:600000,sale:0,tag:'Best Seller',rating:5.0,reviews:62,bestseller:true,desc:'Papan ucapan selamat & sukses ukuran 150×200 cm dengan bunga 2 titik. Ukuran besar, pesan sampai.',images:[IMG+'d64ca656-9a24-480a-bbd3-a0e398fb0588.jpeg']},
+  {id:'ss-150-4',name:'Selamat & Sukses 150×200 — Bunga 4 Titik',cat:'Selamat & Sukses',occasion:'Selamat & Sukses',size:'150×200 cm',points:'4 Titik',price:750000,sale:0,tag:'',rating:4.9,reviews:31,bestseller:false,desc:'Papan ucapan selamat & sukses ukuran 150×200 cm dengan bunga 4 titik. Kombinasi mewah dan berkelas.',images:[IMG+'4df00843-35de-476d-92f6-11396a7698da.jpeg']},
+  {id:'ss-150-full',name:'Selamat & Sukses 150×200 — Full Bunga',cat:'Selamat & Sukses',occasion:'Selamat & Sukses',size:'150×200 cm',points:'Full Bunga',price:1300000,sale:0,tag:'Premium',rating:5.0,reviews:14,bestseller:false,desc:'Papan ucapan selamat & sukses ukuran 150×200 cm dengan full bunga. Paling megah untuk apresiasi tertinggi.',images:[IMG+'25647050-9d62-4cfe-9e0d-99dc1f128062.jpeg']},
+
+  // ===== 4. CONGRATULATION =====
+  {id:'cg-120-2',name:'Congratulation 120×200 — Bunga 2 Titik',cat:'Congratulation',occasion:'Congratulation',size:'120×200 cm',points:'2 Titik',price:500000,sale:0,tag:'',rating:5.0,reviews:29,bestseller:false,desc:'Papan ucapan congratulation ukuran 120×200 cm dengan bunga 2 titik. Untuk grand opening & anniversary.',images:[IMG+'d9e1402c-d67d-4d02-be36-84dc500cb1ca-1.jpeg']},
+  {id:'cg-120-4',name:'Congratulation 120×200 — Bunga 4 Titik',cat:'Congratulation',occasion:'Congratulation',size:'120×200 cm',points:'4 Titik',price:650000,sale:0,tag:'',rating:4.9,reviews:22,bestseller:false,desc:'Papan ucapan congratulation ukuran 120×200 cm dengan bunga 4 titik. Desain elegan untuk momen bahagia.',images:[IMG+'6f03b54d-2bcb-4b25-81a2-4d3304b639b5-1.jpeg']},
+  {id:'cg-120-full',name:'Congratulation 120×200 — Full Bunga',cat:'Congratulation',occasion:'Congratulation',size:'120×200 cm',points:'Full Bunga',price:1000000,sale:0,tag:'Premium',rating:5.0,reviews:16,bestseller:true,desc:'Papan ucapan congratulation ukuran 120×200 cm dengan full bunga. Mewah untuk perayaan istimewa.',images:[IMG+'b2352cc8-d645-46ed-a5bb-5885ef9046c0-1.jpeg']},
+  {id:'cg-150-2',name:'Congratulation 150×200 — Bunga 2 Titik',cat:'Congratulation',occasion:'Congratulation',size:'150×200 cm',points:'2 Titik',price:600000,sale:0,tag:'',rating:5.0,reviews:15,bestseller:true,desc:'Papan ucapan congratulation ukuran 150×200 cm dengan bunga 2 titik. Ideal untuk grand opening & anniversary.',images:[IMG+'b6844aad-72dc-4e09-908c-5cf842b81ea8-1.jpeg']},
+  {id:'cg-150-4',name:'Congratulation 150×200 — Bunga 4 Titik',cat:'Congratulation',occasion:'Congratulation',size:'150×200 cm',points:'4 Titik',price:750000,sale:0,tag:'',rating:5.0,reviews:12,bestseller:false,desc:'Papan ucapan congratulation ukuran 150×200 cm dengan bunga 4 titik. Lebih megah dan berkesan.',images:[IMG+'b4d55951-852e-432c-93f9-696525ff5b62-1.jpeg']},
+  {id:'cg-150-full',name:'Congratulation 150×200 — Full Bunga',cat:'Congratulation',occasion:'Congratulation',size:'150×200 cm',points:'Full Bunga',price:1300000,sale:0,tag:'Premium',rating:5.0,reviews:8,bestseller:false,desc:'Papan ucapan congratulation ukuran 150×200 cm dengan full bunga. Paling mewah untuk apresiasi tertinggi.',images:[IMG+'b65e846c-64b6-4391-86ef-8d44beae21df-1.jpeg']},
+
+  // ===== 5. STANDING FLOWERS =====
+  {id:'sf-1',name:'Standing Flowers',cat:'Standing Flowers',occasion:'Grand Opening',size:'Tinggi ±1.5m',points:'Custom',price:1200000,sale:0,tag:'Premium',rating:5.0,reviews:30,bestseller:true,desc:'Rangkaian standing flower megah. Harga tergantung bunga yang dipilih.',images:[IMG+'8ea51723-0655-44c6-b9ab-3de2eda267b4.jpeg',IMG+'d848c8f7-fd33-40a3-8108-8130695fa771.jpeg',IMG+'39d565e2-e0a4-467f-a9e4-38447b37f004.jpeg',IMG+'4bd17df8-8a0a-438e-99bb-60d689a99f70.jpeg',IMG+'62cf57b8-beee-40ba-afb4-f5b86eb5259b.jpeg']},
+
+  // ===== 6. BOUQUET FLOWERS =====
+  {id:'bf-1',name:'Bouquet Flowers',cat:'Bouquet Flowers',occasion:'Anniversary',size:'Custom',points:'Fresh',price:0,sale:0,tag:'',rating:5.0,reviews:20,bestseller:false,desc:'Rangkaian buket bunga segar dirangkai tangan. Harga menyesuaikan request.',images:[IMG+'90f153a8-920e-45bd-b206-3cab248d706c.jpeg',IMG+'b69841a0-22a0-4f81-96f6-7dc881a0dd38.jpeg']},
+
+  // ===== 7. BOUQUET ARTIFICIAL =====
+  {id:'ba-1',name:'Bouquet Artificial',cat:'Bouquet Artificial',occasion:'Birthday',size:'Custom',points:'Artificial',price:0,sale:0,tag:'',rating:5.0,reviews:15,bestseller:false,desc:'Buket bunga artificial tahan lama tanpa layu. Harga menyesuaikan request.',images:[IMG+'82a86876-693f-41f5-a90a-5f46e525cd24.jpeg']},
+
+  // ===== 8. BOUQUET COSTUM =====
+  {id:'bc-1',name:'Bouquet Costum',cat:'Bouquet Costum',occasion:'Birthday',size:'Custom',points:'Custom',price:0,sale:0,tag:'Custom',rating:5.0,reviews:25,bestseller:true,desc:'Buket custom (uang, snack, mainan, dll). Harga menyesuaikan request.',images:[IMG+'ed7b4d38-5d9f-4a2d-b51f-19c7cdd6fa65.jpeg',IMG+'6171cba2-f56c-411f-85bb-4316dbbeb816.jpeg']},
+
+  // ===== 9. CUSTOM DESIGN =====
+  {id:'cd-1',name:'Custom Your Design 1',cat:'Custom Design',occasion:'Grand Opening',size:'Bebas',points:'Request',price:0,sale:0,tag:'Request',rating:5.0,reviews:10,bestseller:false,desc:'Buat desain rangkaian bungamu sendiri. Hubungi WhatsApp untuk request.',images:[IMG+'dc3fb94e-ae49-4c7a-b731-4f9ae6514df1.jpeg']},
+  {id:'cd-2',name:'Custom Your Design 2',cat:'Custom Design',occasion:'Grand Opening',size:'Bebas',points:'Request',price:0,sale:0,tag:'Request',rating:5.0,reviews:8,bestseller:false,desc:'Buat desain rangkaian bungamu sendiri. Hubungi WhatsApp untuk request.',images:['https://yaffblog.wordpress.com/wp-content/uploads/2026/11/3ce4e74e-b88a-408d-982c-9af82d4e5355.jpeg']},
+  {id:'cd-3',name:'Custom Your Design 3',cat:'Custom Design',occasion:'Grand Opening',size:'Bebas',points:'Request',price:0,sale:0,tag:'Request',rating:5.0,reviews:6,bestseller:false,desc:'Buat desain rangkaian bungamu sendiri. Hubungi WhatsApp untuk request.',images:['https://yaffblog.wordpress.com/wp-content/uploads/2026/11/62cf57b8-beee-40ba-afb4-f5b86eb5259b.jpeg']}
+];
+
+/* CATEGORIES */
+var CATEGORIES = [
+  {name:'Duka Cita', desc:'Sampaikan belasungkawa', image:IMG+'084469e9-9e64-4dff-a45f-6a7384e0133c.jpeg'},
+  {name:'Wedding', desc:'Ucapan hari bahagia', image:IMG+'f2cca3f1-8d3f-4fca-be72-c9e7d5dad3b5.jpeg'},
+  {name:'Selamat & Sukses', desc:'Apresiasi kesuksesan', image:IMG+'d64ca656-9a24-480a-bbd3-a0e398fb0588.jpeg'},
+  {name:'Congratulation', desc:'Grand Opening / Anniversary', image:IMG+'b2352cc8-d645-46ed-a5bb-5885ef9046c0-1.jpeg'},
+  {name:'Standing Flowers', desc:'Rangkaian berdiri megah', image:IMG+'8ea51723-0655-44c6-b9ab-3de2eda267b4.jpeg'},
+  {name:'Bouquet Flowers', desc:'Buket bunga segar', image:IMG+'90f153a8-920e-45bd-b206-3cab248d706c.jpeg'},
+  {name:'Bouquet Artificial', desc:'Buket tahan lama', image:IMG+'82a86876-693f-41f5-a90a-5f46e525cd24.jpeg'},
+  {name:'Bouquet Costum', desc:'Buket custom / uang', image:IMG+'ed7b4d38-5d9f-4a2d-b51f-19c7cdd6fa65.jpeg'},
+  {name:'Custom Design', desc:'Request desain sendiri', image:IMG+'dc3fb94e-ae49-4c7a-b731-4f9ae6514df1.jpeg'}
+];
+
+/* OCCASIONS */
+var OCCASIONS = [
+  {name:'Duka Cita', desc:'Sampaikan belasungkawa.', image:IMG+'f72eb770-f7f5-4b85-ad1b-2855d4d31a40.jpeg'},
+  {name:'Wedding', desc:'Peringati hari bahagia.', image:IMG+'5a6306fd-5489-4b42-81a7-b8df73a7c6cf.jpeg'},
+  {name:'Selamat & Sukses', desc:'Apresiasi kesuksesan.', image:IMG+'4fb05cc5-52ea-4331-a45a-96ef6f59d3eb.jpeg'},
+  {name:'Congratulation', desc:'Grand Opening & Anniversary.', image:IMG+'6f03b54d-2bcb-4b25-81a2-4d3304b639b5-1.jpeg'},
+  {name:'Standing Flowers', desc:'Kesan megah & berkelas.', image:IMG+'d848c8f7-fd33-40a3-8108-8130695fa771.jpeg'},
+  {name:'Bouquet Flowers', desc:'Hadiah bunga segar.', image:IMG+'b69841a0-22a0-4f81-96f6-7dc881a0dd38.jpeg'},
+  {name:'Bouquet Costum', desc:'Hadiah unik & personal.', image:IMG+'6171cba2-f56c-411f-85bb-4316dbbeb816.jpeg'},
+  {name:'Custom Design', desc:'Sesuai keinginanmu.', image:IMG+'dc3fb94e-ae49-4c7a-b731-4f9ae6514df1.jpeg'}
+];
+
+/* INSTAGRAM */
+var INSTA_IMAGES = [
+  IMG+'ddf0ec1b-51f5-4a79-bfba-ce1c4122b9e3.jpeg',
+  IMG+'998508ba-423d-41c9-8e55-92e2fb415d38.jpeg',
+  IMG+'e274f085-d1b7-4177-8e86-04ecca58a27e.jpeg',
+  IMG+'afd54975-d9cf-421b-b435-ef20406c7f45.jpeg',
+  IMG+'88e91159-c355-482e-88e8-ce831a2aea5d.jpeg',
+  IMG+'4d47103e-0143-4b80-b8b4-44aef300979b.jpeg'
+];
+
+var STEPS = [
+  {icon:'M6 2h12l2 6-8 4-8-4 2-6z M12 12v10 M4 22h16', title:'Pilih bunga', desc:'Jelajahi koleksi dan pilih yang paling cocok.'},
+  {icon:'M2 3h20v14H2z M12 21v-4 M8 21h8', title:'Isi data', desc:'Nama penerima, alamat, tanggal, dan kartu ucapan.'},
+  {icon:'M22 2L11 13 M22 2l-7 20-4-9-9-4 20-7z', title:'Bayar & Kirim / Kirim & Bayar', desc:'Fleksibel, bisa bayar dulu atau kirim dulu via kesepakatan bersama admin.'}
+];
+
+var COMPARISON = [
+  {feature:'Proses cepat 2 jam', beauty:true, other:false},
+  {feature:'Menggunakan tangan seniman, minim perantara modern sehingga desain tidak monoton', beauty:true, other:false},
+  {feature:'Foto real sebelum kirim', beauty:true, other:false},
+  {feature:'Konsultasi florist', beauty:true, other:false}
+];
+
+var GIFT_OCCASIONS = ['Duka Cita','Wedding','Selamat & Sukses','Congratulation','Bouquet Costum','Custom Design'];
+var GIFT_BUDGETS = [
+  {label:'≤ Rp500rb', max:500000},
+  {label:'Rp500rb–1jt', min:500001, max:1000000},
+  {label:'> Rp1jt', min:1000001}
+];
+
+var TESTIMONIALS = [
+  {quote:'Papan bunganya megah banget! Ukuran 150×200 pas, bunga 2 titiknya rapi. Pesan pagi, siang sudah sampai lokasi.',name:'Budi S.',role:'Pelanggan'},
+  {quote:'Papan wedding untuk resepsi adik saya. Proses cepat, pelayanan ramah. Sangat memuaskan.',name:'Dewi K.',role:'Event organizer'},
+  {quote:'Bouquet custom nya keren parah, adminnya fast respon banget nyocokin request aku. Recommended!',name:'Sinta P.',role:'Pelanggan'}
+];
+
+var CFG = {wa:'6281298156071'};
+
+function $(s){return document.querySelector(s);}
+function rp(n){
+  if(n === 0 || n === undefined || n === null) return 'Tanya Harga';
+  return 'Rp '+Number(n||0).toLocaleString('id-ID');
+}
+function getPrice(p){return p.sale>0?p.sale:p.price;}
+function findProduct(id){for(var i=0;i<PRODUCTS.length;i++)if(PRODUCTS[i].id===id)return PRODUCTS[i];return null;}
+
+var cart={};try{cart=JSON.parse(localStorage.getItem('beauty-cart')||'{}')||{};}catch(e){cart={};}
+function saveCart(){try{localStorage.setItem('beauty-cart',JSON.stringify(cart));}catch(e){}}
+
+var toastTimer;
+function showToast(msg){var t=$('#toast');if(!t)return;t.textContent=msg;t.classList.remove('opacity-0','translate-y-4');clearTimeout(toastTimer);toastTimer=setTimeout(function(){t.classList.add('opacity-0','translate-y-4');},2400);}
+window.showToast=showToast;
+
+/* TRUST */
+function renderTrust(){
+  var el=$('#trustStrip');if(!el)return;
+  var items=[
+    {icon:'M12 21c-4-4-7-7-7-11a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 4-3 7-7 11Z',label:'Pengerjaan Seniman',sub:'Dilakukan dengan tangan, minim perantara modern'},
+    {icon:'M3 7h13v10H3z M16 10h4l1 3v4h-5',label:'Gratis Ongkir',sub:'Sekitar area Tangerang Kota & sekitarnya'},
+    {icon:'M21 11.5a8.4 8.4 0 0 1-9 8.4L4 21l1.2-4A8.4 8.4 0 1 1 21 11.5Z',label:'Harga Spesial',sub:'Bisa dibicarakan untuk pesanan banyak'},
+    {icon:'M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z M9 12l2 2 4-4',label:'Cek Teks Ucapan',sub:'Pastikan teks benar agar tidak ada kesalahan'}
+  ];
+  el.innerHTML=items.map(function(it){
+    return '<div class="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-100 shadow-sm">'+
+      '<div class="w-8 h-8 rounded-full bg-sand flex items-center justify-center shrink-0 mt-0.5">'+
+        '<svg viewBox="0 0 24 24" fill="none" stroke="#1E3A2F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="'+it.icon+'"/></svg>'+
+      '</div>'+
+      '<div><div class="text-[12px] font-bold text-forest leading-tight mb-0.5">'+it.label+'</div><div class="text-[10.5px] text-stone-500 leading-snug">'+it.sub+'</div></div>'+
+    '</div>';
+  }).join('');
+}
+
+/* CATEGORIES */
+function renderCategories(){
+  var el=$('#categoryGrid');if(!el)return;
+  el.innerHTML=CATEGORIES.map(function(c){
+    return '<a href="#koleksi" class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-stone-100" data-cat="'+c.name+'" onclick="event.preventDefault();filterProducts(this.dataset.cat);">'+
+      '<img src="'+c.image+'" alt="'+c.name+'" loading="lazy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">'+
+      '<div class="absolute inset-0 bg-gradient-to-t from-forest/85 via-forest/20 to-transparent"></div>'+
+      '<div class="absolute bottom-0 left-0 right-0 p-3 text-ivory">'+
+        '<div class="font-display text-[12px] lg:text-[14px] font-semibold leading-tight">'+c.name+'</div>'+
+        '<div class="text-[9px] opacity-80 mt-0.5 line-clamp-1">'+c.desc+'</div>'+
+      '</div>'+
+    '</a>';
+  }).join('');
+}
+
+/* PRODUCT CARD */
+function productCard(p){
+  var off=p.sale>0?Math.round(100-p.sale/p.price*100):0;
+  var tag=off?'-'+off+'%':(p.tag||'');
+  var tagHTML=tag?'<span class="absolute top-3 left-3 bg-ivory text-forest text-[10px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded-full z-10">'+tag+'</span>':'';
+  var multiBadge=p.images.length>1?'<span class="absolute top-3 right-3 bg-forest/80 text-ivory text-[9.5px] font-semibold px-2 py-0.5 rounded-full z-10 backdrop-blur">📷 '+p.images.length+'</span>':'';
+  var oldPriceHTML=p.sale>0?'<div class="text-[11px] text-stone-400 line-through">'+rp(p.price)+'</div>':'';
+  var priceText = rp(getPrice(p));
+  return '<article class="group">'+
+    '<div class="product-media relative aspect-[4/5] rounded-xl overflow-hidden bg-stone-100 mb-3">'+
+      '<img src="'+p.images[0]+'" alt="'+p.name+'" loading="lazy" class="w-full h-full object-cover cursor-pointer" data-pid="'+p.id+'" onclick="openQuickView(this.dataset.pid)">'+
+      tagHTML+multiBadge+
+      '<button type="button" data-add="'+p.id+'" onclick="addToCart(this.dataset.add)" class="absolute bottom-3 left-3 right-3 h-9 rounded-full bg-ivory text-forest text-[11.5px] font-semibold opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 hover:bg-forest hover:text-ivory">+ Keranjang</button>'+
+    '</div>'+
+    '<div class="flex items-start justify-between gap-2">'+
+      '<div class="min-w-0">'+
+        '<div class="text-[10px] tracking-[0.14em] uppercase text-stone-400 mb-0.5">'+p.cat+' · '+p.points+'</div>'+
+        '<h3 class="text-[13px] lg:text-[14px] font-semibold text-forest tracking-tight leading-snug truncate cursor-pointer hover:text-forest-soft" data-pid="'+p.id+'" onclick="openQuickView(this.dataset.pid)">'+p.name+'</h3>'+
+        '<div class="flex items-center gap-1 mt-0.5"><svg viewBox="0 0 24 24" fill="#F59E0B" class="w-3 h-3"><path d="M12 2l3 6.5 7 .9-5 4.9 1.2 6.9L12 17.8 5.8 21.2 7 14.3 2 9.4l7-.9L12 2z"/></svg><span class="text-[10px] lg:text-[10.5px] text-stone-500">'+p.rating+'</span></div>'+
+      '</div>'+
+      '<div class="text-right flex-shrink-0"><div class="text-[12.5px] lg:text-[13.5px] font-semibold text-forest">'+priceText+'</div>'+oldPriceHTML+'</div>'+
+    '</div>'+
+  '</article>';
+}
+
+/* FILTER */
+var currentFilter='Semua';
+function renderProducts(){
+  var grid=$('#productGrid');if(!grid)return;
+  var list = currentFilter==='Semua' ? PRODUCTS : PRODUCTS.filter(function(p){return p.cat===currentFilter;});
+  if(!list.length){grid.innerHTML='<div class="col-span-full text-center py-16 text-stone-500 text-[14px]">Belum ada produk.</div>';return;}
+  grid.innerHTML=list.map(productCard).join('');
+}
+
+function renderFilterTabs(){
+  var el=$('#filterTabs');if(!el)return;
+  var tabs=['Semua','Duka Cita','Wedding','Selamat & Sukses','Congratulation','Standing Flowers','Bouquet Flowers','Bouquet Artificial','Bouquet Costum','Custom Design'];
+  el.innerHTML=tabs.map(function(t){
+    return '<button class="filter-chip '+(t===currentFilter?'active':'')+'" data-tab="'+t+'" onclick="filterProducts(this.dataset.tab)">'+t+'</button>';
+  }).join('');
+}
+
+function setFilter(cat){
+  currentFilter=cat; renderFilterTabs(); renderProducts();
+  var el=$('#koleksi');if(el)el.scrollIntoView({behavior:'smooth',block:'start'});
+}
+window.filterProducts=setFilter;
+window.setFilter=setFilter;
+
+/* COMPARISON */
+function renderComparison(){
+  var el=$('#compareTable');if(!el)return;
+  el.innerHTML=COMPARISON.map(function(row){
+    var yes='<svg viewBox="0 0 24 24" fill="none" stroke="#1E3A2F" stroke-width="2.2" class="w-4 h-4 mx-auto"><path d="M20 6L9 17l-5-5"/></svg>';
+    var no='<svg viewBox="0 0 24 24" fill="none" stroke="#A8A29E" stroke-width="2" class="w-4 h-4 mx-auto"><path d="M18 6L6 18M6 6l12 12"/></svg>';
+    return '<div class="grid grid-cols-[2fr,1fr,1fr] border-t border-stone-100 text-[12px] lg:text-[12.5px]"><div class="px-5 py-3.5 text-stone-600">'+row.feature+'</div><div class="px-5 py-3.5 text-center border-l border-stone-100">'+(row.beauty?yes:no)+'</div><div class="px-5 py-3.5 text-center border-l border-stone-100">'+(row.other?yes:no)+'</div></div>';
+  }).join('');
+}
+
+/* OCCASIONS */
+function renderOccasions(){
+  var el=$('#occasionGrid');if(!el)return;
+  el.innerHTML=OCCASIONS.map(function(o){
+    return '<a href="#koleksi" class="group relative rounded-xl overflow-hidden aspect-square lg:aspect-[4/5] bg-stone-100" data-occ="'+o.name+'" onclick="event.preventDefault();filterProducts(this.dataset.occ);">'+
+      '<img src="'+o.image+'" alt="'+o.name+'" loading="lazy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">'+
+      '<div class="absolute inset-0 bg-gradient-to-t from-forest/85 via-forest/20 to-transparent"></div>'+
+      '<div class="absolute bottom-0 left-0 right-0 p-4 text-ivory">'+
+        '<h3 class="font-display text-lg lg:text-xl font-semibold leading-tight">'+o.name+'</h3>'+
+        '<div class="mt-1 text-[10px] lg:text-[11px] font-semibold opacity-90">'+o.desc+'</div>'+
+      '</div>'+
+    '</a>';
+  }).join('');
+}
+
+/* GIFT FINDER */
+var giftState={occasion:null,budget:null};
+function renderGiftChips(){
+  var occEl=$('#giftOccasionChips');if(occEl){
+    occEl.innerHTML=GIFT_OCCASIONS.map(function(o){
+      return '<button class="gift-chip '+(giftState.occasion===o?'selected':'')+'" data-gift-occ="'+o+'" onclick="setGiftOccasion(this.dataset.giftOcc)">'+o+'</button>';
+    }).join('');
+  }
+  var budEl=$('#giftBudgetChips');if(budEl){
+    budEl.innerHTML=GIFT_BUDGETS.map(function(b,i){
+      return '<button class="gift-chip '+(giftState.budget===i?'selected':'')+'" data-gift-bud="'+i+'" onclick="setGiftBudget(this.dataset.giftBud)">'+b.label+'</button>';
+    }).join('');
+  }
+  renderGiftResult();
+}
+function setGiftOccasion(o){giftState.occasion=o;renderGiftChips();}
+function setGiftBudget(i){giftState.budget=parseInt(i,10);renderGiftChips();}
+function renderGiftResult(){
+  var el=$('#giftResult');if(!el)return;
+  if(!giftState.occasion||giftState.budget===null){
+    el.innerHTML='<p class="text-[13px] text-stone-500 text-center">Pilih kategori dan budget untuk melihat rekomendasi.</p>';return;
+  }
+  var b=GIFT_BUDGETS[giftState.budget];
+  var list=PRODUCTS.filter(function(p){
+    var price=getPrice(p);
+    if(p.occasion!==giftState.occasion)return false;
+    if(b.min!==undefined&&price<b.min)return false;
+    if(b.max!==undefined&&price>b.max)return false;
+    return true;
+  }).slice(0,3);
+  if(!list.length){el.innerHTML='<p class="text-[13px] text-stone-500 text-center">Belum ada produk yang cocok.</p>';return;}
+  el.innerHTML='<div class="text-center mb-4"><p class="text-[12px] font-semibold uppercase tracking-wider text-forest">Rekomendasi</p></div><div class="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4">'+list.map(productCard).join('')+'</div>';
+}
+window.setGiftOccasion=setGiftOccasion;window.setGiftBudget=setGiftBudget;
+
+/* STEPS */
+function renderSteps(){
+  var el=$('#stepsGrid');if(!el)return;
+  el.innerHTML=STEPS.map(function(s,i){
+    return '<div class="rounded-2xl bg-ivory border border-stone-200 p-6 relative"><div class="absolute -top-3 left-6 w-7 h-7 rounded-full bg-forest text-ivory grid place-items-center font-display text-[13px] font-semibold">'+(i+1)+'</div><div class="w-11 h-11 rounded-full bg-forest/10 grid place-items-center mb-4 mt-1"><svg viewBox="0 0 24 24" fill="none" stroke="#1E3A2F" stroke-width="1.5" class="w-5 h-5"><path d="'+s.icon+'"/></svg></div><h3 class="font-display text-lg font-semibold text-forest mb-1.5">'+s.title+'</h3><p class="text-[13px] text-stone-500 leading-relaxed">'+s.desc+'</p></div>';
+  }).join('');
+}
+
+/* BESTSELLERS */
+function renderBestsellers(){
+  var el=$('#bestsellerGrid');if(!el)return;
+  var list=PRODUCTS.filter(function(p){return p.bestseller;}).slice(0,4);
+  el.innerHTML=list.map(productCard).join('');
+}
+
+/* TESTIMONIALS */
+function renderTestimonials(){
+  var el=$('#testimonialGrid');if(!el)return;
+  el.innerHTML=TESTIMONIALS.map(function(t){
+    var stars='';for(var s=0;s<5;s++)stars+='<svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5"><path d="M12 2l3 6.5 7 .9-5 4.9 1.2 6.9L12 17.8 5.8 21.2 7 14.3 2 9.4l7-.9L12 2z"/></svg>';
+    return '<figure class="rounded-2xl border border-stone-200 bg-white p-5 flex flex-col"><div class="flex items-center gap-0.5 text-amber-500 mb-3">'+stars+'</div><blockquote class="text-[13px] text-stone-600 leading-relaxed flex-1">"'+t.quote+'"</blockquote><figcaption class="mt-4 pt-4 border-t border-stone-100 flex items-center gap-2.5"><div class="w-8 h-8 rounded-full bg-sand grid place-items-center text-[11px] font-semibold text-forest">'+t.name.charAt(0)+'</div><div><div class="text-[12px] font-semibold text-forest">'+t.name+'</div></div></figcaption></figure>';
+  }).join('');
+}
+
+/* INSTAGRAM */
+function renderInsta(){
+  var el=$('#instaGrid');if(!el)return;
+  el.innerHTML=INSTA_IMAGES.map(function(src,i){
+    return '<a href="https://www.instagram.com/beautyfloristtangerang/" target="_blank" rel="noopener noreferrer" class="group relative aspect-square rounded-lg overflow-hidden bg-stone-100 block">'+
+      '<img src="'+src+'" alt="Instagram Beauty Florist '+(i+1)+'" loading="lazy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">'+
+      '<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">'+
+        '<svg viewBox="0 0 24 24" fill="white" class="w-8 h-8"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.3 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .3-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.3-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.3 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.2.8-.4.4-.6.7-.8 1.2-.2.4-.3 1-.4 2.1-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1.1.2 1.7.4 2.1.2.5.4.9.8 1.2.4.4.7.6 1.2.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.2-.8.4-.4.6-.7.8-1.2.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.2-.4-.4-.7-.6-1.2-.8-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1zm0 3.1a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4zm5.2-2.1a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg>'+
+      '</div>'+
+    '</a>';
+  }).join('');
+}
+
+/* CONTACT */
+function renderContact(){
+  var el=$('#contactList');if(!el)return;
+  var items=[
+    {title:'Alamat Studio',content:'Jl. Kalipasir Indah, RT.05/RW.007, Sukasari, Kec. Tangerang, Kota Tangerang, Banten 15118',icon:'M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 0 1 18 0Z M12 10a3 3 0 1 0 0.01 0'},
+    {title:'Jam Operasional',content:'Senin - Minggu : 24 Jam',icon:'M12 3a9 9 0 1 0 0.01 0 M12 7v5l3 2'},
+    {title:'WhatsApp / Telp',content:'0812-9815-6071',icon:'M21 11.5a8.4 8.4 0 0 1-9 8.4L4 21l1.2-4A8.4 8.4 0 1 1 21 11.5Z'}
+  ];
+  el.innerHTML=items.map(function(it){
+    return '<div class="flex items-start gap-3"><div class="w-10 h-10 rounded-full bg-white grid place-items-center flex-shrink-0 border border-stone-200 shadow-sm"><svg viewBox="0 0 24 24" fill="none" stroke="#1E3A2F" stroke-width="1.5" class="w-5 h-5"><path d="'+it.icon+'"/></svg></div><div><div class="text-[12px] font-semibold text-forest">'+it.title+'</div><div class="text-[13px] text-stone-600 mt-0.5 leading-relaxed">'+it.content+'</div></div></div>';
+  }).join('');
+}
+
+/* CATALOG RENDER */
+function renderCatalog(){
+  var el=$('#catalogBody');if(!el)return;
+  var order=['Duka Cita','Wedding','Selamat & Sukses','Congratulation','Standing Flowers','Bouquet Flowers','Bouquet Artificial','Bouquet Costum','Custom Design'];
+  var html='';
+  order.forEach(function(catName){
+    var list=PRODUCTS.filter(function(p){return p.cat===catName;});
+    if(!list.length)return;
+    html+='<div class="mb-6">';
+    html+='<h4 class="font-display text-[15px] font-semibold text-forest mb-3 pb-1.5 border-b border-stone-200 flex items-center gap-2">'+
+          '<span class="w-1.5 h-1.5 rounded-full bg-rose"></span>'+catName+
+          '<span class="text-[10px] font-normal text-stone-400">('+list.length+' produk)</span></h4>';
+    html+='<div class="space-y-4">';
+    list.forEach(function(p){
+      html+='<div class="bg-white rounded-xl p-3 border border-stone-200">';
+      html+='<div class="catalog-img-row">';
+      p.images.forEach(function(imgUrl,i){
+        html+='<img src="'+imgUrl+'" alt="'+p.name+' foto '+(i+1)+'" loading="lazy">';
+      });
+      html+='</div>';
+      html+='<div class="mt-2.5 px-0.5">';
+      html+='<div class="text-[12.5px] font-semibold text-forest leading-tight">'+p.name+'</div>';
+      html+='<div class="flex items-center justify-between mt-1">';
+      html+='<div class="text-[13px] font-bold text-forest">'+rp(getPrice(p))+'</div>';
+      html+='<div class="text-[10px] text-stone-500">'+(p.images.length>1?'📷 '+p.images.length+' foto':'1 foto')+'</div>';
+      html+='</div>';
+      html+='</div>';
+      html+='</div>';
+    });
+    html+='</div></div>';
+  });
+  el.innerHTML=html;
+}
+
+/* CART */
+function addToCart(id){cart[id]=(cart[id]||0)+1;saveCart();updateCartUI();closeQuickView();openCart();showToast('Ditambahkan ke keranjang');}
+window.addToCart=addToCart;
+function changeQty(id,delta){cart[id]=(cart[id]||0)+delta;if(cart[id]<=0)delete cart[id];saveCart();updateCartUI();}
+window.changeQty=changeQty;
+function removeFromCart(id){delete cart[id];saveCart();updateCartUI();}
+window.removeFromCart=removeFromCart;
+
+function cartCount(){var n=0;for(var k in cart)if(cart.hasOwnProperty(k))n+=cart[k];return n;}
+function cartSubtotal(){var sub=0;for(var id in cart){if(!cart.hasOwnProperty(id))continue;var p=findProduct(id);if(p)sub+=getPrice(p)*cart[id];}return sub;}
+
+var EMPTY_SVG='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="w-6 h-6 text-stone-400"><path d="M6 8h12l-1.5 11h-9L6 8z"/></svg>';
+
+function updateCartUI(){
+  var countEl=$('#cartCount'),inlineEl=$('#cartCountInline'),mCount=$('#cartCountMobile');
+  var itemsEl=$('#cartItems'),totalEl=$('#cartTotal');
+  if(!itemsEl)return;
+  var n=cartCount();
+  if(countEl)countEl.textContent=n;if(mCount)mCount.textContent=n;if(inlineEl)inlineEl.textContent='('+n+')';
+  var ids=Object.keys(cart);
+  if(ids.length===0){
+    itemsEl.innerHTML='<div class="text-center py-16"><div class="w-14 h-14 mx-auto rounded-full bg-sand grid place-items-center mb-4">'+EMPTY_SVG+'</div><div class="text-[13.5px] font-medium text-forest mb-1">Keranjang masih kosong</div></div>';
+  }else{
+    itemsEl.innerHTML=ids.map(function(id){
+      var p=findProduct(id);if(!p)return '';
+      return '<div class="flex gap-3 py-4 border-b border-stone-100 last:border-0"><div class="w-16 h-16 rounded-lg overflow-hidden bg-stone-100 flex-shrink-0"><img src="'+p.images[0]+'" alt="" class="w-full h-full object-cover"></div><div class="flex-1 min-w-0"><div class="text-[12.5px] font-semibold text-forest truncate">'+p.name+'</div><div class="text-[11.5px] text-stone-500 mt-0.5">'+rp(getPrice(p))+'</div><div class="flex items-center gap-2 mt-2"><button type="button" data-qid="'+id+'" data-qd="-1" onclick="changeQty(this.dataset.qid,parseInt(this.dataset.qd,10))" class="w-6 h-6 rounded-full border border-stone-200 grid place-items-center text-stone-500 hover:border-forest transition-colors">&minus;</button><span class="text-[12px] font-medium w-5 text-center">'+cart[id]+'</span><button type="button" data-qid="'+id+'" data-qd="1" onclick="changeQty(this.dataset.qid,parseInt(this.dataset.qd,10))" class="w-6 h-6 rounded-full border border-stone-200 grid place-items-center text-stone-500 hover:border-forest transition-colors">+</button><button type="button" data-rm="'+id+'" onclick="removeFromCart(this.dataset.rm)" class="ml-auto text-[10.5px] text-stone-400 hover:text-rose-deep underline">Hapus</button></div></div></div>';
+    }).join('');
+  }
+  if(totalEl)totalEl.textContent=rp(cartSubtotal());
+}
+
+function openCart(){var d=$('#cartDrawer'),b=$('#cartBackdrop'),p=$('#cartPanel');if(!d||!b||!p)return;d.classList.remove('pointer-events-none');b.classList.remove('opacity-0');b.classList.add('opacity-100');p.classList.remove('translate-x-full');document.body.classList.add('no-scroll');}
+function closeCart(){var d=$('#cartDrawer'),b=$('#cartBackdrop'),p=$('#cartPanel');if(!d||!b||!p)return;b.classList.remove('opacity-100');b.classList.add('opacity-0');p.classList.add('translate-x-full');d.classList.add('pointer-events-none');document.body.classList.remove('no-scroll');}
+window.openCart=openCart;window.closeCart=closeCart;
+
+/* CHECKOUT */
+function openCheckout(){
+  if(Object.keys(cart).length===0) return showToast('Keranjang masih kosong');
+  closeCart();
+  var o=$('#checkoutModal');o.classList.remove('hidden');o.classList.add('flex');document.body.classList.add('no-scroll');
+  var tomorrow=new Date();tomorrow.setDate(tomorrow.getDate()+1);
+  document.getElementById('coDate').value=tomorrow.toISOString().split('T')[0];
+}
+function closeCheckout(){var o=$('#checkoutModal');o.classList.add('hidden');o.classList.remove('flex');document.body.classList.remove('no-scroll');}
+window.openCheckout=openCheckout;window.closeCheckout=closeCheckout;
+
+function submitCheckout(e){
+  e.preventDefault();
+  var name=document.getElementById('coName').value;
+  var phone=document.getElementById('coPhone').value;
+  var address=document.getElementById('coAddress').value;
+  var date=document.getElementById('coDate').value;
+  var time=document.getElementById('coTime').value;
+  var note=document.getElementById('coNote').value;
+  var lines=['Halo Beauty Florist, saya mau pesan:'];
+  for(var id in cart){
+    if(cart.hasOwnProperty(id)){
+      var p=findProduct(id);
+      if(p)lines.push('• '+p.name+' x'+cart[id]+' = '+rp(getPrice(p)*cart[id]));
+    }
+  }
+  lines.push('');lines.push('*DATA PENGIRIMAN*');
+  lines.push('Nama: '+name);
+  lines.push('No. WA: '+phone);
+  lines.push('Alamat: '+address);
+  lines.push('Tgl Kirim: '+date+(time?' Jam '+time:''));
+  if(note)lines.push('Catatan/Teks: '+note);
+  lines.push('');lines.push('*TOTAL: '+rp(cartSubtotal())+'*');
+  lines.push('');lines.push('_Pengiriman Sekitar area Tangerang Kota Gratis Ongkir_');
+  window.open('https://wa.me/'+CFG.wa+'?text='+encodeURIComponent(lines.join('\n')),'_blank');
+  closeCheckout();
+  cart={};saveCart();updateCartUI();
+  showToast('Pesanan diteruskan ke WhatsApp');
+}
+window.submitCheckout=submitCheckout;
+
+/* QUICK VIEW */
+function openQuickView(id){
+  var p=findProduct(id);if(!p)return;
+  var overlay=$('#qvOverlay'),content=$('#qvContent');
+  if(!overlay||!content)return;
+  var off=p.sale>0?Math.round(100-p.sale/p.price*100):0;
+  var galleryHTML='';
+  if(p.images.length>1){
+    galleryHTML='<div class="flex gap-1.5 mt-3 overflow-x-auto pb-1">'+p.images.map(function(img,i){
+      return '<img src="'+img+'" class="h-14 w-14 object-cover rounded-md cursor-pointer border-2 '+(i===0?'border-forest':'border-stone-200')+'" onclick="swapQvImage(this,\''+img+'\',this.parentElement)" alt="foto '+(i+1)+'">';
+    }).join('')+'</div>';
+  }
+  content.innerHTML=
+    '<button onclick="closeQuickView()" class="absolute top-4 right-4 z-10 h-9 w-9 rounded-full bg-white/90 backdrop-blur grid place-items-center hover:bg-white transition-colors" aria-label="Tutup"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="w-4 h-4"><path d="M18 6L6 18M6 6l12 12"/></svg></button>'+
+    '<div class="grid md:grid-cols-2 gap-0">'+
+      '<div class="aspect-square md:aspect-auto bg-stone-100 overflow-hidden relative"><img id="qvMainImg" src="'+p.images[0]+'" class="w-full h-full object-cover">'+(off?'<span class="absolute top-3 left-3 bg-ivory text-forest text-[11px] font-semibold uppercase px-3 py-1 rounded-full">-'+off+'%</span>':'')+'</div>'+
+      '<div class="p-6 md:p-8 flex flex-col">'+
+        '<div class="text-[10px] uppercase text-stone-400 mb-2">'+p.cat+' · '+p.size+' · '+p.points+'</div>'+
+        '<h2 class="font-display text-2xl font-semibold text-forest leading-tight">'+p.name+'</h2>'+
+        '<div class="flex items-baseline gap-3 mt-4"><div class="text-2xl font-display font-semibold text-forest">'+rp(getPrice(p))+'</div>'+(p.sale>0?'<div class="text-[13px] text-stone-400 line-through">'+rp(p.price)+'</div>':'')+'</div>'+
+        '<p class="mt-4 text-[13px] text-stone-600 leading-relaxed">'+p.desc+'</p>'+
+        galleryHTML+
+        '<div class="mt-6 flex gap-2">'+
+          '<button type="button" data-add="'+p.id+'" onclick="addToCart(this.dataset.add)" class="flex-1 h-11 rounded-full bg-forest text-ivory text-[13px] font-semibold hover:bg-forest-soft transition-colors">Tambah ke keranjang</button>'+
+        '</div>'+
+        '<p class="mt-3 text-[10.5px] text-stone-400 flex items-center gap-1">📍 Gratis Ongkir Sekitar area Tangerang Kota</p>'+
+      '</div>'+
+    '</div>';
+  overlay.classList.remove('hidden');overlay.classList.add('flex');document.body.classList.add('no-scroll');
+}
+function swapQvImage(thumb,url,row){
+  document.getElementById('qvMainImg').src=url;
+  Array.prototype.forEach.call(row.querySelectorAll('img'),function(el){el.classList.remove('border-forest');el.classList.add('border-stone-200');});
+  thumb.classList.remove('border-stone-200');thumb.classList.add('border-forest');
+}
+window.swapQvImage=swapQvImage;
+function closeQuickView(){
+  var overlay=$('#qvOverlay');if(!overlay)return;
+  overlay.classList.add('hidden');overlay.classList.remove('flex');
+  if(!$('#cartDrawer').classList.contains('pointer-events-none'))return;
+  if(!$('#checkoutModal').classList.contains('hidden'))return;
+  if(!$('#catalogModal').classList.contains('hidden'))return;
+  document.body.classList.remove('no-scroll');
+}
+window.openQuickView=openQuickView;window.closeQuickView=closeQuickView;
+
+/* BIND */
+function bindEvents(){
+  var nav=$('#nav');
+  if(nav){
+    var onScroll=function(){if(window.scrollY>50)nav.classList.add('nav-scrolled');else nav.classList.remove('nav-scrolled');};
+    window.addEventListener('scroll',onScroll,{passive:true});
+    onScroll();
+  }
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'){closeCart();closeQuickView();closeCheckout();closeSidebar();closeCatalogModal();}
+  });
+  var y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();
+  var yS=document.getElementById('yearSidebar');if(yS)yS.textContent=new Date().getFullYear();
+}
+
+function safe(fn,name){try{fn();}catch(e){if(window.console)console.warn('Init failed:',name,e);}}
+
+safe(initHeroPetals,'initHeroPetals');
+safe(renderTrust,'renderTrust');
+safe(renderCategories,'renderCategories');
+safe(renderFilterTabs,'renderFilterTabs');
+safe(renderProducts,'renderProducts');
+safe(renderComparison,'renderComparison');
+safe(renderOccasions,'renderOccasions');
+safe(renderGiftChips,'renderGiftChips');
+safe(renderSteps,'renderSteps');
+safe(renderBestsellers,'renderBestsellers');
+safe(renderTestimonials,'renderTestimonials');
+safe(renderInsta,'renderInsta');
+safe(renderContact,'renderContact');
+safe(renderCatalog,'renderCatalog');
+safe(updateCartUI,'updateCartUI');
+safe(bindEvents,'bindEvents');
+
+})();
+</script>
+</body>
+</html>
